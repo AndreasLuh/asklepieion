@@ -116,3 +116,12 @@ li.gesehen .nr { background: var(--blau-linie); color: var(--blau); }
 .standort-kreis { fill: rgba(217, 72, 15, .15); stroke: rgba(217, 72, 15, .5); stroke-width: 1; }
 .standort-knopf { border: 0; background: var(--blau); color: #fff; font: 600 15px var(--sans); border-radius: 22px; padding: 10px 18px; }
 .standort-info { margin: 8px 0 0; min-height: 1.5em; }
+
+/* Passwortsperre */
+body.gesperrt .leiste, body.gesperrt .kopf { display: none; }
+body.gesperrt { padding-bottom: 0; }
+.sperre { max-width: 420px; margin: 12vh auto 0; display: flex; flex-direction: column; gap: 8px; }
+.sperre label { font-weight: 600; font-size: 14px; margin-top: 8px; }
+.sperre input { font: 17px var(--sans); padding: 12px; border: 1px solid var(--blau-linie); border-radius: 10px; }
+.sperre button { font: 600 16px var(--sans); padding: 12px; border: 0; border-radius: 10px; background: var(--blau); color: #fff; }
+.sperre-fehler { color: #b42318; min-height: 1.4em; margin: 0; font-size: 14px; }

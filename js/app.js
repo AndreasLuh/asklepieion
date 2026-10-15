@@ -3,6 +3,8 @@ import { loadContent } from "./content.js";
 import { createPlayer } from "./speech.js";
 import { createProgress } from "./progress.js";
 import { renderPlan, stopStandort } from "./geo.js";
+import { checkPassword, isUnlocked, unlock } from "./gate.js";
+import { GATE } from "./gate-config.js";
 import { renderOrt, renderThema, renderRundgang, renderThemen, renderEinfuehrung } from "./render.js";
 
 const ansicht = document.getElementById("ansicht");
@@ -108,4 +110,36 @@ async function start() {
   zeigen();
 }
 
-start();
+function speicher() {
+  try { return localStorage; } catch { return undefined; }
+}
+
+function sperrbildschirm() {
+  document.body.classList.add("gesperrt");
+  const form = document.createElement("form");
+  form.className = "sperre pad";
+  form.innerHTML = `
+    <p class="kicker">Privater Reisebegleiter</p>
+    <h1>Asklepieion von Kos</h1>
+    <p class="hinweis">Bitte geben Sie das Passwort ein, das Sie erhalten haben.</p>
+    <label for="pw">Passwort</label>
+    <input id="pw" type="password" autocomplete="current-password" required>
+    <p class="sperre-fehler" role="alert"></p>
+    <button type="submit">Öffnen</button>`;
+  form.addEventListener("submit", async e => {
+    e.preventDefault();
+    const feld = form.querySelector("input");
+    if (await checkPassword(feld.value, GATE)) {
+      unlock(speicher(), GATE.hash);
+      document.body.classList.remove("gesperrt");
+      start();
+    } else {
+      form.querySelector(".sperre-fehler").textContent = "Passwort stimmt nicht.";
+      feld.select();
+    }
+  });
+  ansicht.replaceChildren(form);
+}
+
+if (isUnlocked(speicher(), GATE.hash)) start();
+else sperrbildschirm();
