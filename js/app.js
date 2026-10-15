@@ -5,6 +5,7 @@ import { createProgress } from "./progress.js";
 import { renderPlan, stopStandort } from "./geo.js";
 import { checkPassword, isUnlocked, unlock } from "./gate.js";
 import { GATE } from "./gate-config.js";
+import { startOffline } from "./offline.js";
 import { renderOrt, renderThema, renderRundgang, renderThemen, renderEinfuehrung } from "./render.js";
 
 const ansicht = document.getElementById("ansicht");
@@ -143,3 +144,6 @@ function sperrbildschirm() {
 
 if (isUnlocked(speicher(), GATE.hash)) start();
 else sperrbildschirm();
+
+// Offline-Speicherung beginnt sofort, auch vor der Passworteingabe.
+startOffline(() => [document.getElementById("offline-status"), document.getElementById("offline-box")]);
