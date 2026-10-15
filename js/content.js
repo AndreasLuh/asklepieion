@@ -7,6 +7,8 @@ export async function loadContent(base = "content/") {
     if (!r.ok) throw new Error(`${name} nicht ladbar (${r.status})`);
     return r.json();
   };
+  // Eine einzelne .json-Datei enthält alles (für Tests und Vorschau)
+  if (base.endsWith(".json")) return hole("");
   const [site, orte, themen, lexikon] = await Promise.all(
     ["site.json", "orte.json", "themen.json", "lexikon.json"].map(hole));
   return { site, orte: orte.orte, themen: themen.themen, lexikon };

@@ -52,3 +52,53 @@ main { max-width: 680px; margin: 0 auto; outline: none; }
 }
 .leiste a .sym { font-size: 20px; line-height: 1.1; }
 .leiste a.aktiv { color: var(--blau); }
+
+/* Seiten */
+.kicker { margin: 0 0 4px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--blau); font-weight: 600; }
+h1 { font-size: 26px; line-height: 1.15; margin: 0 0 6px; font-weight: 600; }
+.untertitel { margin: 0 0 8px; color: var(--text-2); font-size: 14px; }
+.marke { display: inline-block; font-size: 12px; color: var(--blau); background: var(--blau-hell); border-radius: 10px; padding: 2px 8px; }
+.text { font-family: var(--serif); font-size: 17px; line-height: 1.55; }
+.text h2 { font-family: var(--sans); font-size: 18px; margin: 22px 0 6px; font-weight: 600; }
+.text p { margin: 0 0 12px; }
+.hinweis { color: var(--text-2); font-size: 15px; }
+
+/* Bildfläche mit Umschalter */
+.bildflaeche { position: relative; background: var(--blau-hell); }
+.bildflaeche figure { margin: 0; }
+.bildflaeche img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: var(--blau-hell); }
+.bildflaeche figcaption { font-size: 12px; color: var(--text-2); padding: 6px 16px 0; line-height: 1.4; }
+.umschalter {
+  position: absolute; right: 12px; top: 12px;
+  display: flex; border-radius: 20px; overflow: hidden; background: #fff; box-shadow: 0 1px 5px rgba(0,0,0,.3);
+}
+.umschalter button { border: 0; background: transparent; font: 600 13px var(--sans); padding: 8px 14px; color: var(--text); }
+.umschalter button.an { background: var(--blau); color: #fff; }
+
+/* Audio */
+.audio { display: flex; align-items: center; gap: 10px; background: var(--blau-hell); border-radius: 12px; padding: 10px 12px; margin: 12px 0; }
+.audio button { border: 0; border-radius: 50%; width: 40px; height: 40px; flex-shrink: 0; background: var(--blau); color: #fff; font-size: 15px; }
+.audio button.weiter { background: transparent; color: var(--blau); font-size: 18px; }
+.audio-info { font-size: 14px; color: var(--text-2); flex: 1; }
+
+/* Vertiefung, Themen-Schildchen, Quellen */
+details.mehr { border-top: 1px solid var(--linie); margin-top: 8px; padding-top: 4px; }
+details.mehr summary { cursor: pointer; font-weight: 600; color: var(--blau); padding: 10px 0; font-size: 16px; }
+.chips { margin: 18px 0 8px; }
+.chips-titel { display: block; font-size: 12px; color: var(--text-2); margin-bottom: 6px; }
+a.chip { display: inline-block; font-size: 14px; background: var(--blau-hell); color: var(--blau); border-radius: 14px; padding: 6px 12px; margin: 0 6px 8px 0; font-weight: 500; text-decoration: none; }
+.quellen { margin-top: 22px; border-top: 1px solid var(--linie); padding-top: 8px; }
+.quellen h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-2); margin: 6px 0; }
+.quellen ul { padding-left: 18px; margin: 0; font-size: 13px; color: var(--text-2); line-height: 1.45; }
+.quellen li { margin-bottom: 4px; }
+
+/* Listen (Rundgang, Themen) */
+.dauer { font-weight: 600; margin: 4px 0; }
+ol.stationen, ul.themenliste { list-style: none; padding: 0; margin: 16px 0; }
+ol.stationen li, ul.themenliste li { border-bottom: 1px solid var(--linie); }
+ol.stationen a, ul.themenliste a { display: flex; align-items: center; gap: 12px; padding: 12px 0; text-decoration: none; color: var(--text); }
+.nr { width: 32px; height: 32px; border-radius: 50%; background: var(--blau); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 14px; flex-shrink: 0; }
+li.gesehen .nr { background: var(--blau-linie); color: var(--blau); }
+.was { flex: 1; display: flex; flex-direction: column; }
+.was small { color: var(--text-2); font-size: 13px; }
+.haken { color: var(--blau); font-weight: 700; }
