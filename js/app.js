@@ -4,7 +4,11 @@ import { createPlayer } from "./speech.js";
 import { createProgress } from "./progress.js";
 import { renderPlan, stopStandort } from "./geo.js";
 import { checkPassword, isUnlocked, unlock } from "./gate.js";
-import { GATE } from "./gate-config.js";
+// Passwort-Konfiguration; nur auf localhost kann ein Test mit ?gate=test eine Testkonfiguration laden.
+const lokal = ["localhost", "127.0.0.1"].includes(location.hostname);
+const { GATE } = lokal && new URLSearchParams(location.search).get("gate") === "test"
+  ? await import("../../tests/fixtures/gate-test.js")
+  : await import("./gate-config.js");
 import { startOffline } from "./offline.js";
 import { renderOrt, renderThema, renderRundgang, renderThemen, renderEinfuehrung } from "./render.js";
 
