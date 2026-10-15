@@ -85,7 +85,7 @@
     },
     {
       "id": "brunnenwand",
-      "nr": 4, "terrasse": "unten",
+      "nr": 6, "terrasse": "unten",
       "titel": "Brunnen, Quellen und die Statue des Xenophon",
       "untertitel": "Stützmauer mit Nischen · römische Zeit",
       "lat": 36.875863, "lon": 27.257302,
@@ -136,7 +136,7 @@
     },
     {
       "id": "thermen",
-      "nr": 6, "terrasse": "unten",
+      "nr": 4, "terrasse": "unten",
       "titel": "Die römischen Thermen",
       "untertitel": "Badeanlage mit drei Sälen · 3. Jh. n. Chr.",
       "lat": 36.876030, "lon": 27.258342,
@@ -160,7 +160,7 @@
     },
     {
       "id": "altar",
-      "nr": 7, "terrasse": "mitte",
+      "nr": 9, "terrasse": "mitte",
       "titel": "Der große Altar",
       "untertitel": "Ältester Bau des Heiligtums · Mitte 4. Jh. v. Chr.",
       "lat": 36.875747, "lon": 27.257102,
@@ -190,7 +190,7 @@
     },
     {
       "id": "ionischer-tempel",
-      "nr": 8, "terrasse": "mitte",
+      "nr": 10, "terrasse": "mitte",
       "titel": "Der ionische Tempel des Asklepios",
       "untertitel": "Kleiner Tempel mit zwei Säulen · 3. Jh. v. Chr.",
       "lat": 36.875864, "lon": 27.256864,
@@ -216,7 +216,7 @@
     },
     {
       "id": "abaton",
-      "nr": 9, "terrasse": "mitte",
+      "nr": 11, "terrasse": "mitte",
       "titel": "Das „Abaton“: Schlafsaal, Priesterhaus oder Festsaal?",
       "untertitel": "Zweiteiliger Bau mit Vorhalle · frühes 3. Jh. v. Chr.",
       "lat": 36.875729, "lon": 27.256822,
@@ -243,7 +243,7 @@
     },
     {
       "id": "xenophon-tempel",
-      "nr": 10, "terrasse": "mitte",
+      "nr": 7, "terrasse": "mitte",
       "titel": "Die Stiftungen des Xenophon",
       "untertitel": "Kleiner Tempel für Asklepios, Hygieia und Epione · 1. Jh. n. Chr.",
       "lat": 36.875985, "lon": 27.257041,
@@ -269,7 +269,7 @@
     },
     {
       "id": "exedra",
-      "nr": 11, "terrasse": "mitte",
+      "nr": 12, "terrasse": "mitte",
       "titel": "Exedra und Brunnen",
       "untertitel": "Halbrunde Nische für Statuen",
       "lat": 36.875585, "lon": 27.257079,
@@ -293,7 +293,7 @@
     },
     {
       "id": "apollon-tempel",
-      "nr": 12, "terrasse": "mitte",
+      "nr": 8, "terrasse": "mitte",
       "titel": "Der römische Tempel, wohl für Apollon",
       "untertitel": "Korinthischer Ringhallentempel · 2. Jh. n. Chr.",
       "lat": 36.875726, "lon": 27.257228,

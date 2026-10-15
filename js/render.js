@@ -142,7 +142,10 @@ export function renderRundgang(site, orte, ctx) {
         h("a", { href: `#/ort/${o.id}` },
           h("span", { class: "nr" }, String(o.nr)),
           h("span", { class: "was" }, h("strong", {}, o.titel), h("small", {}, `${TERRASSE[o.terrasse]} · ${formatMinuten(r.minuten)}`)),
-          ctx.isSeen(o.id) ? h("span", { class: "haken", "aria-label": "gesehen" }, "✓") : null));
+          ctx.isSeen(o.id) ? h("span", { class: "haken", "aria-label": "gesehen" }, "✓") : null),
+        r.thema && ctx.themenById.has(r.thema)
+          ? h("a", { class: "pause", href: `#/thema/${r.thema}` }, "Pause mit Thema: ", h("strong", {}, ctx.themenById.get(r.thema).titel))
+          : null);
     })));
 }
 

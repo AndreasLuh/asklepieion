@@ -8,7 +8,23 @@
     { "lat": 36.8763617, "lon": 27.2576247, "x": 332.6, "y": 565.4 },
     { "lat": 36.8760302, "lon": 27.2583418, "x": 154.4, "y": 593.6 }
   ],
-  "rundgang": [],
+  "rundgang": [
+    { "id": "hain", "minuten": 10, "thema": "hippokrates" },
+    { "id": "propylon", "minuten": 6 },
+    { "id": "untere-terrasse", "minuten": 11, "thema": "heilsuchende" },
+    { "id": "thermen", "minuten": 6 },
+    { "id": "latrinen", "minuten": 6 },
+    { "id": "brunnenwand", "minuten": 7 },
+    { "id": "xenophon-tempel", "minuten": 10, "thema": "kos-geschichte" },
+    { "id": "apollon-tempel", "minuten": 9, "thema": "asklepios" },
+    { "id": "altar", "minuten": 10, "thema": "alltag" },
+    { "id": "ionischer-tempel", "minuten": 6 },
+    { "id": "abaton", "minuten": 10, "thema": "heilschlaf" },
+    { "id": "exedra", "minuten": 8, "thema": "krankenhaus" },
+    { "id": "grosse-treppe", "minuten": 6 },
+    { "id": "dorischer-tempel", "minuten": 9, "thema": "glaube-erfahrung" },
+    { "id": "obere-hallen", "minuten": 9, "thema": "saeftelehre" }
+  ],
   "einfuehrung": [
     {
       "ueberschrift": "Worum es geht",

@@ -76,6 +76,7 @@ export function validateContent(c) {
   const ortIds = new Set(orte.map(o => o.id));
   for (const r of site.rundgang || []) {
     if (!ortIds.has(r.id)) m.push(`Rundgang: unbekannter Ort ${r.id}`);
+    if (r.thema && !themenIds.has(r.thema)) m.push(`Rundgang: unbekanntes Thema ${r.thema} bei ${r.id}`);
   }
   pruefeAbschnitte(site.einfuehrung, "Einführung", m);
   return m;

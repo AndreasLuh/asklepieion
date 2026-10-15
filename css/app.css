@@ -130,3 +130,4 @@ body.gesperrt { padding-bottom: 0; }
 .sperre input { font: 17px var(--sans); padding: 12px; border: 1px solid var(--blau-linie); border-radius: 10px; }
 .sperre button { font: 600 16px var(--sans); padding: 12px; border: 0; border-radius: 10px; background: var(--blau); color: #fff; }
 .sperre-fehler { color: #b42318; min-height: 1.4em; margin: 0; font-size: 14px; }
+ol.stationen a.pause { display: block; gap: 0; margin: -4px 0 12px 44px; font-size: 14px; color: var(--blau); text-decoration: none; background: var(--blau-hell); border-radius: 10px; padding: 8px 12px; }
