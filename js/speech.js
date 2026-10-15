@@ -45,9 +45,10 @@ function waehleStimme(synth) {
 
 // Ein Abspieler für die ganze Seite. onProgress({status, abschnitt, gesamt})
 // status: "spielt" | "pause" | "ende" | "stopp" | "keine-stimme"
-export function createPlayer({ lexikon = {} } = {}) {
-  const synth = globalThis.speechSynthesis;
+// synth und doc sind nur für Tests austauschbar.
+export function createPlayer({ lexikon = {}, synth = globalThis.speechSynthesis, doc = globalThis.document } = {}) {
   const available = !!synth && typeof SpeechSynthesisUtterance !== "undefined";
+  let aktuell = null;     // Referenz halten: sonst kann der Browser die Äußerung vor onend verwerfen
   let stuecke = [];       // [{text, abschnitt}]
   let pos = 0, gesamt = 0, lauf = 0, status = "stopp";
   let melde = () => {};
@@ -63,9 +64,13 @@ export function createPlayer({ lexikon = {} } = {}) {
       }
     } catch { wakeLock = null; }
   }
-  document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "visible" && status === "spielt") wachHalten(true);
-  });
+  // Wieder sichtbar: Bildschirm wach halten und eine vom System beendete Wiedergabe fortsetzen
+  function sichtbar() {
+    if (status !== "spielt") return;
+    wachHalten(true);
+    if (!synth.speaking && !synth.pending) { lauf++; sprich(); }
+  }
+  doc?.addEventListener("visibilitychange", () => { if (doc.visibilityState !== "hidden") sichtbar(); });
 
   function setze(s) {
     status = s;
@@ -78,17 +83,20 @@ export function createPlayer({ lexikon = {} } = {}) {
     if (pos >= stuecke.length) { setze("ende"); wachHalten(false); return; }
     const u = new SpeechSynthesisUtterance(stuecke[pos].text);
     const stimme = waehleStimme(synth);
-    if (stimme) u.voice = stimme;
+    if (stimme) { try { u.voice = stimme; } catch { /* nur in Tests: keine echte Stimme */ } }
     u.lang = stimme?.lang || "de-DE";
     u.rate = 0.95;
     u.onend = () => { if (meinLauf === lauf && status === "spielt") { pos++; sprich(); } };
     u.onerror = () => { if (meinLauf === lauf && status === "spielt") { pos++; sprich(); } };
+    aktuell = u;
     synth.speak(u);
     setze("spielt");
   }
 
   return {
     available,
+    get _aktuell() { return aktuell; },
+    _sichtbar: sichtbar,
     get status() { return status; },
     play(abschnitte, onProgress) {
       if (!available) { onProgress?.({ status: "keine-stimme", abschnitt: 0, gesamt: 0 }); return; }
