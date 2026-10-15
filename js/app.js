@@ -1,5 +1,6 @@
 import { parseRoute } from "./router.js";
 import { loadContent } from "./content.js";
+import { createPlayer } from "./speech.js";
 import { renderOrt, renderThema, renderRundgang, renderThemen, renderEinfuehrung } from "./render.js";
 
 const ansicht = document.getElementById("ansicht");
@@ -7,6 +8,37 @@ const ansicht = document.getElementById("ansicht");
 const basis = new URLSearchParams(location.search).get("inhalt") || "content/";
 let inhalt = null;
 let ctx = null;
+let player = null;
+let aktiveBox = null;
+
+function knopf(zeichen, label, klasse, onclick) {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = klasse; b.textContent = zeichen;
+  b.setAttribute("aria-label", label);
+  b.addEventListener("click", onclick);
+  return b;
+}
+
+// Steuert die Audioleiste (box) für die übergebenen Abschnitte.
+function sprechen(abschnitte, box, beiEnde) {
+  if (aktiveBox && aktiveBox !== box) aktiveBox.zuruecksetzen?.();
+  aktiveBox = box;
+  const ursprung = [...box.childNodes];
+  const info = document.createElement("span");
+  info.className = "audio-info";
+  const pp = knopf("❚❚", "Pause", "play", () => (player.status === "spielt" ? player.pause() : player.resume()));
+  const weiter = knopf("⏭", "Nächster Abschnitt", "weiter", () => player.next());
+  box.zuruecksetzen = () => { box.replaceChildren(...ursprung); box.zuruecksetzen = null; };
+  box.replaceChildren(pp, info, weiter);
+  player.play(abschnitte, ({ status, abschnitt, gesamt }) => {
+    if (status === "keine-stimme") { info.textContent = "Keine deutsche Vorlesestimme gefunden – siehe Einführung"; return; }
+    if (status === "stopp") { box.zuruecksetzen?.(); return; }
+    if (status === "ende") { box.zuruecksetzen?.(); beiEnde?.(); return; }
+    pp.textContent = status === "spielt" ? "❚❚" : "▶";
+    pp.setAttribute("aria-label", status === "spielt" ? "Pause" : "Weiter abspielen");
+    info.textContent = `Abschnitt ${abschnitt}/${gesamt}`;
+  });
+}
 
 function meldung(text) {
   const p = document.createElement("p");
@@ -42,12 +74,13 @@ async function start() {
     ansicht.replaceChildren(meldung("Inhalte konnten nicht geladen werden: " + e.message));
     return;
   }
+  player = createPlayer({ lexikon: inhalt.lexikon });
   ctx = {
     themenById: new Map(inhalt.themen.map(t => [t.id, t])),
     isSeen: () => false,
-    onSpeak: () => {},
+    onSpeak: sprechen,
   };
-  addEventListener("hashchange", zeigen);
+  addEventListener("hashchange", () => { player.stop(); zeigen(); });
   zeigen();
 }
 
