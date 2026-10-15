@@ -157,6 +157,241 @@
       "quellen": [
         "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Thermen des 3. Jh. n. Chr. mit drei apsidialen Sälen, Wandmalerei, Mosaiken; Thermen des Xenophon im 1. Jh. n. Chr."
       ]
+    },
+    {
+      "id": "altar",
+      "nr": 7, "terrasse": "mitte",
+      "titel": "Der große Altar",
+      "untertitel": "Ältester Bau des Heiligtums · Mitte 4. Jh. v. Chr.",
+      "lat": 36.875747, "lon": 27.257102,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Sie sind auf der mittleren Terrasse, dem religiösen Zentrum des Heiligtums. Vor Ihnen liegen die Reste des großen Altars des Asklepios. Er wurde um die Mitte des 4. Jahrhunderts v. Chr. gebaut und ist der älteste Bau der ganzen Anlage. Mit ihm beginnt die Geschichte des Asklepieions.",
+          "Wichtig ist: In der griechischen Religion war nicht der Tempel, sondern der Altar unter freiem Himmel der Ort des Gottesdienstes. Hier wurden die Opfer dargebracht. Ein Teil des Tieres wurde für den Gott verbrannt, das übrige Fleisch gemeinsam verzehrt. Der Rauch stieg zum Gott auf, das Mahl verband die Menschen."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Bildwerke der Söhne des Praxiteles", "absaetze": [
+          "Der Altar war mit Skulpturen geschmückt, die als Werk der Söhne des berühmten Bildhauers Praxiteles gelten. Erhalten ist davon fast nichts. Wir wissen davon vor allem durch den Dichter Herodas, der im 3. Jahrhundert v. Chr. zwei Frauen hier opfern und die Kunstwerke bewundern lässt.",
+          "Im frühen 2. Jahrhundert v. Chr. wurde der Altar nach dem Kulturministerium prächtig erneuert, und zwar nach dem Vorbild des berühmten Zeusaltars von Pergamon, dessen Fries heute im Pergamonmuseum in Berlin steht. Das passt zur Zeit: Damals stand das Heiligtum unter dem Schutz des pergamenischen Königs Eumenes II."
+        ] },
+        { "ueberschrift": "Ein Hahn für Asklepios", "absaetze": [
+          "Nicht jedes Opfer war ein Stier. Die Frauen bei Herodas bringen einen Hahn, ein typisches Opfer kleiner Leute an Asklepios. Selbst Sokrates soll im Sterben daran erinnert haben, dass man Asklepios noch einen Hahn schulde."
+        ] }
+      ],
+      "themen": ["alltag", "asklepios"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Altar Mitte 4. Jh. v. Chr., ältester Bau, Söhne des Praxiteles, Erneuerung nach dem Pergamonaltar",
+        "P. Schievink, Asklepieion of Kos, UBC 2023 (IG XII 4,1 397)",
+        "Herodas, Mimiambos 4",
+        "Platon, Phaidon 118a"
+      ]
+    },
+    {
+      "id": "ionischer-tempel",
+      "nr": 8, "terrasse": "mitte",
+      "titel": "Der ionische Tempel des Asklepios",
+      "untertitel": "Kleiner Tempel mit zwei Säulen · 3. Jh. v. Chr.",
+      "lat": 36.875864, "lon": 27.256864,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Westlich des Altars stehen die Reste des ersten Tempels des Asklepios. Er stammt aus dem 3. Jahrhundert v. Chr. und war klein: Seine Front bildeten zwei Säulen im ionischen Stil, mit den typischen schneckenförmigen Kapitellen, zwischen zwei vorspringenden Wandenden.",
+          "Im Inneren stand das Kultbild des Gottes; seine Basis ist erhalten. Ein Tempel war in Griechenland kein Versammlungsraum, sondern das Haus des Gottes und seiner Schätze. Die Menschen versammelten sich draußen am Altar."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Der Tresor im Boden", "absaetze": [
+          "Im Boden des Innenraums wurde eine Grube gefunden. Nach Inschriften war das der Thesauros, die Schatzkammer des Heiligtums, in der Geld und heilige Geräte aufbewahrt wurden. Hier landeten also auch die Gebühren und Gaben der Kranken.",
+          "In einem Tempel wie diesem sahen die beiden Frauen bei Herodas wohl die berühmten Gemälde, darunter ein Werk des Apelles, des größten Malers seiner Zeit. Strabon berichtet, das Heiligtum sei voller Weihgeschenke gewesen; ein Bild der Aphrodite, die aus dem Meer steigt, habe Kaiser Augustus nach Rom bringen lassen und den Koern dafür hundert Talente ihrer Abgaben erlassen. Ob alle diese Werke in genau diesem Tempel hingen, ist nicht sicher."
+        ] }
+      ],
+      "themen": ["asklepios", "heilsuchende"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): ionischer Distylos in antis, 3. Jh. v. Chr., Kultbildbasis, Thesauros",
+        "Herodas, Mimiambos 4",
+        "Strabon, Geographika 14.2.19 (Übers. H. L. Jones, Loeb 1928)"
+      ]
+    },
+    {
+      "id": "abaton",
+      "nr": 9, "terrasse": "mitte",
+      "titel": "Das „Abaton“: Schlafsaal, Priesterhaus oder Festsaal?",
+      "untertitel": "Zweiteiliger Bau mit Vorhalle · frühes 3. Jh. v. Chr.",
+      "lat": 36.875729, "lon": 27.256822,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Südlich des ionischen Tempels liegt ein zweiteiliges Gebäude mit einer Vorhalle aus vier dorischen Säulen. Es wird oft „Abaton“ genannt, „das Unbetretbare“. So hießen die Räume, in denen Kranke die Nacht verbrachten und auf die Erscheinung des Gottes im Traum hofften.",
+          "Ob es hier wirklich so war, ist eine der spannenden offenen Fragen des Ortes. Das griechische Kulturministerium nennt zwei Möglichkeiten: Wohnung der Priester oder Abaton für den Heilschlaf. Eine neuere Untersuchung schlägt eine dritte vor: einen Festsaal für das gemeinsame Mahl nach dem Opfer."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Warum die Deutung so schwer ist", "absaetze": [
+          "In Epidauros erzählen Inschriften von Heilungen im Abaton. Für Kos fehlen solche Heilberichte. Deshalb lässt sich aus dem Gebäude allein nicht ablesen, wozu es diente. Der Bau wurde zudem nach Erdbeben mehrfach erneuert.",
+          "Die Deutung als Festsaal stützt sich auf das Stück des Herodas: Die beiden Frauen wollen nach ihrem Hahnenopfer essen, und der Text spricht dabei von Räumen. Die Bauforscherin Monica Livadiotti hat vorgeschlagen, dass genau dieses Gebäude gemeint ist. Opfer und gemeinsames Mahl gehörten in Griechenland eng zusammen; Speiseräume gab es in vielen Heiligtümern.",
+          "Das Ministerium hält den Heilschlaf auf Kos zumindest für die hellenistische Zeit für gesichert. Wo er stattfand, bleibt offen. Mehr im Thema zum Heilschlaf."
+        ] }
+      ],
+      "themen": ["heilschlaf", "alltag"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): zweiteiliger Bau mit dorischem tetrastylem Prodomos, Priesterwohnung oder Abaton; Heilschlaf in hellenistischer Zeit",
+        "M. Livadiotti, Lo hestiatorion dell'Asklepieion di Kos, Thiasos 2013",
+        "P. Schievink, Asklepieion of Kos, UBC 2023 (Umbauten nach Erdbeben; keine Heilberichte für Kos)"
+      ]
+    },
+    {
+      "id": "xenophon-tempel",
+      "nr": 10, "terrasse": "mitte",
+      "titel": "Die Stiftungen des Xenophon",
+      "untertitel": "Kleiner Tempel für Asklepios, Hygieia und Epione · 1. Jh. n. Chr.",
+      "lat": 36.875985, "lon": 27.257041,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Im 1. Jahrhundert n. Chr. ließ der koische Arzt Gaius Stertinius Xenophon, Leibarzt römischer Kaiser, im Heiligtum einen kleinen Tempel bauen. Er war Asklepios, seiner Tochter Hygieia und seiner Frau Epione gemeinsam geweiht, also der ganzen Familie der Heilung. Dazu stiftete Xenophon eine Bibliothek.",
+          "Eine Bibliothek im Heiligtum: Das zeigt, wie eng Religion und Wissen hier zusammengehörten. Neben Opfer und Gebet stand das Studium der Schriften, und in Kos waren das nicht zuletzt die Schriften der Ärzte."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Ein Wohltäter seiner Heimat", "absaetze": [
+          "Xenophon war zugleich Priester des Asklepios, der Hygieia und der Epione. Eine Ehreninschrift aus Kos aus dem Jahr 54 n. Chr. nennt ihn Oberarzt der Kaiser, Militärtribun und Wohltäter seiner Vaterstadt.",
+          "Die Lage seines Tempels ist hier nach dem Eintrag in OpenStreetMap angegeben. Wo genau die Bibliothek stand, ist in den uns vorliegenden Quellen nicht beschrieben."
+        ] }
+      ],
+      "themen": ["asklepios", "kos-geschichte"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Naiskos für Asklepios, Hygieia und Epione, Bibliothek, Stiftungen des Xenophon",
+        "Ehreninschrift für C. Stertinius Xenophon, Kos, 54 n. Chr. (nach Heurist, Judaism and Rome, Datensatz 229)",
+        "OpenStreetMap, Knoten „Temple of Xenophon“ (abgerufen 15.10.2026)"
+      ]
+    },
+    {
+      "id": "exedra",
+      "nr": 11, "terrasse": "mitte",
+      "titel": "Exedra und Brunnen",
+      "untertitel": "Halbrunde Nische für Statuen",
+      "lat": 36.875585, "lon": 27.257079,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Östlich der großen Treppe liegt eine halbrunde Anlage, eine Exedra. Solche Halbrunde dienten zum Aufstellen von Statuen und luden oft auch mit einer Bank zum Sitzen ein. Daneben lag ein Brunnen.",
+          "Statuen waren in einem Heiligtum wie diesem allgegenwärtig: Bildnisse von Göttern, von Wohltätern und von Geheilten, die sich bedankten. Wer reich war, verewigte sich so im Heiligtum; Statuenbasen mit Inschriften gehören zu den wichtigsten Quellen der Archäologen."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Ein Platz zum Verweilen", "absaetze": [
+          "Wann die Exedra gebaut wurde, ist in den uns vorliegenden Quellen nicht angegeben. Ihr Platz ist aber gut gewählt: zwischen dem Altar, den Tempeln und dem Aufgang zur oberen Terrasse, an einem der belebtesten Punkte des Heiligtums.",
+          "Vielleicht ein guter Moment für eine Pause und eines der Themen, zum Beispiel über den Alltag im Heiligtum."
+        ] }
+      ],
+      "themen": ["alltag"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): halbrunde Exedra zur Aufstellung von Statuen, Brunnen"
+      ]
+    },
+    {
+      "id": "apollon-tempel",
+      "nr": 12, "terrasse": "mitte",
+      "titel": "Der römische Tempel, wohl für Apollon",
+      "untertitel": "Korinthischer Ringhallentempel · 2. Jh. n. Chr.",
+      "lat": 36.875726, "lon": 27.257228,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Die schlanken Säulen mit den Kapitellen aus Akanthusblättern sind das bekannteste Fotomotiv des Asklepieions. Sie gehören zu einem römischen Tempel aus dem 2. Jahrhundert n. Chr., der Zeit der Kaiser aus der Familie der Antonine. Ringsum lief eine Säulenhalle, die Fachleute nennen das einen Peripteros.",
+          "Geweiht war der Tempel wahrscheinlich Apollon, dem Vater des Asklepios und älteren Herrn dieses Ortes. Ganz sicher ist das nicht."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Wiederaufgebaut", "absaetze": [
+          "Die Säulen, die heute stehen, wurden in den 1930er Jahren von italienischen Archäologen wieder aufgerichtet. Kos gehörte damals zu Italien, das die Insel 1912 besetzt hatte. Was Sie sehen, ist also eine Mischung aus antiken Bauteilen und moderner Rekonstruktion.",
+          "Der Bau zeigt, dass das Heiligtum auch in der römischen Kaiserzeit noch prächtig ausgebaut wurde, mehr als vierhundert Jahre nach dem ersten Altar."
+        ] }
+      ],
+      "themen": ["asklepios", "kos-geschichte"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): römischer korinthischer Peripteros des 2. Jh. n. Chr. (Antoninen), wohl Apollon; italienische Wiederaufbauten der 1930er Jahre",
+        "M. Livadiotti / G. Rocco (Hg.), La presenza italiana nel Dodecaneso tra il 1912 e il 1948, Athen 1996 (nach Literaturangabe des Ministeriums; nicht eingesehen)"
+      ]
+    },
+    {
+      "id": "grosse-treppe",
+      "nr": 13, "terrasse": "oben",
+      "titel": "Die große Treppe",
+      "untertitel": "Aufgang zur oberen Terrasse · frühes 2. Jh. v. Chr.",
+      "lat": 36.875514, "lon": 27.256870,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Zwischen dem „Abaton“ und der Exedra führt die große Treppe zur obersten Terrasse hinauf. Sie entstand im frühen 2. Jahrhundert v. Chr., als das Heiligtum unter dem Schutz des Königs Eumenes II. von Pergamon seine heutige, monumentale Gestalt erhielt.",
+          "Achten Sie beim Hinaufsteigen auf die Wirkung: Die Treppe liegt so, dass der Eingang des großen Tempels genau gegenüber ihrem oberen Ende lag. Mit jeder Stufe wuchs der Tempel vor Ihnen in die Höhe."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Architektur als Inszenierung", "absaetze": [
+          "Terrassen, Treppen und Säulenhallen, die den Blick auf ein Ziel lenken, sind typisch für die großen Bauten der hellenistischen Zeit. Die Baumeister arbeiteten mit dem Gelände wie mit einer Bühne. Ähnlich gestaltet sind etwa das Heiligtum der Athena in Lindos auf Rhodos oder die Burg von Pergamon.",
+          "Für die Pilger war der Aufstieg auch ein Weg vom Alltag der unteren Terrasse über den Kult der mittleren hin zum Haus des Gottes ganz oben."
+        ] }
+      ],
+      "themen": ["kos-geschichte", "heilsuchende"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): große Treppe unter Eumenes II., Lage zwischen Abaton und Exedra, Tempeleingang gegenüber dem Treppenende",
+        "Vergleich mit Lindos und Pergamon: allgemeine Einordnung hellenistischer Terrassenarchitektur (von Claude ergänzt, nicht aus einer der hier genannten Quellen)"
+      ]
+    },
+    {
+      "id": "dorischer-tempel",
+      "nr": 14, "terrasse": "oben",
+      "titel": "Der große dorische Tempel",
+      "untertitel": "Ringhallentempel des Asklepios · 2. Jh. v. Chr.",
+      "lat": 36.875321, "lon": 27.256728,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Hier oben stand der größte und jüngste Tempel des Asklepios, gebaut im 2. Jahrhundert v. Chr. Rundum trug eine Säulenhalle das Dach, mit den schlichten, kraftvollen Säulen des dorischen Stils. Nach dem griechischen Kulturministerium war der Bau eine Nachbildung des Asklepiostempels im Mutterheiligtum von Epidauros.",
+          "Heute sehen Sie vor allem das Fundament und einzelne Bauteile. Der Tempel beherrschte einst das ganze Heiligtum: Vom Hafen und von der Stadt aus war er weithin zu sehen."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Vom Tempel zur Kirche zur Burg", "absaetze": [
+          "Nach dem Ende des Heiligtums wurde im Vorraum des Tempels, dem Pronaos, eine frühchristliche Kirche gebaut, die Panagia Tarsou. Von ihr ist nur ein Kapitell erhalten, das als Altartisch diente. Der Name erinnert wohl an den alten Hain des Apollon.",
+          "Im Spätmittelalter dienten die Ruinen den Johanniterrittern als Steinbruch für ihre Burg am Hafen von Kos-Stadt. Deshalb steht vom Tempel so wenig. Manche Blöcke aus dem Asklepieion sind heute in den Mauern der Burg verbaut."
+        ] },
+        { "ueberschrift": "Wann genau?", "absaetze": [
+          "Das Ministerium datiert den Tempel allgemein ins 2. Jahrhundert v. Chr. Andere Angaben, etwa der griechischen Tourismusbehörde, nennen 170 bis 160 v. Chr. Für eine genaue Jahreszahl haben wir keine belastbare Quelle eingesehen."
+        ] }
+      ],
+      "themen": ["asklepios", "kos-geschichte"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): großer dorischer Tempel des 2. Jh. v. Chr., Nachbildung des Tempels von Epidauros, Kirche Panagia Tarsou, Johanniter",
+        "Visit Greece (griech. Tourismusbehörde), Asklepieion: 170–160 v. Chr."
+      ]
+    },
+    {
+      "id": "obere-hallen",
+      "nr": 15, "terrasse": "oben",
+      "titel": "Die oberen Hallen und der Ausblick",
+      "untertitel": "Π-förmige dorische Halle · 2. Jh. v. Chr.",
+      "lat": 36.875480, "lon": 27.256389,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Die obere Terrasse umschloss auf drei Seiten, im Süden, Westen und Osten, eine dorische Säulenhalle in Π-Form, wie auf der unteren Terrasse. Sie entstand im 2. Jahrhundert v. Chr. und ersetzte ältere Hallen aus Holz. Hinter den Säulen lagen Zimmer für Pilger und Kranke.",
+          "Drehen Sie sich jetzt einmal um. Über die Terrassen hinweg sehen Sie die Stadt Kos, das Meer und die Küste Kleinasiens, die heutige Türkei mit der Halbinsel von Bodrum, dem antiken Halikarnassos. Wer hier oben wohnte, hatte einen der schönsten Ausblicke der Ägäis."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Zum Abschluss", "absaetze": [
+          "Von hier überblicken Sie die ganze Geschichte des Ortes: unten die Hallen und Thermen, in denen Kranke wohnten und badeten, in der Mitte Altar und Tempel, an denen geopfert und gebetet wurde, oben das große Haus des Gottes. Rund achthundert Jahre lang, vom 4. Jahrhundert v. Chr. bis in die Spätantike, kamen Menschen hierher, um gesund zu werden.",
+          "Wenn Sie noch Zeit haben: Die Themen über die Säftelehre und über Glaube und Erfahrung passen gut zu diesem Ausblick."
+        ] }
+      ],
+      "themen": ["saeftelehre", "glaube-erfahrung", "krankenhaus"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Π-förmige dorische Halle des 2. Jh. v. Chr. mit Zimmern, Ersatz älterer Holzhallen; Blick auf Meer und kleinasiatische Küste"
+      ]
     }
   ]
 }
