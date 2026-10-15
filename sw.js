@@ -1,4 +1,4 @@
-// Version c1edf42c638f
+// Version 4a4b598016d3
 // Service Worker: speichert alle Dateien und liefert sie offline aus.
 importScripts("precache-list.js");
 const NAME = `asklepieion-${self.CACHE_VERSION}`;

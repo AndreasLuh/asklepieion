@@ -55,14 +55,14 @@
     {
       "ueberschrift": "Einmal vorbereiten, dann offline",
       "absaetze": [
-        "Öffnen Sie den Begleiter einmal im WLAN, zum Beispiel im Hotel, und warten Sie, bis oben rechts *Für offline bereit* erscheint. Dann sind alle Texte, Bilder und der Plan auf dem Handy gespeichert, und in der Anlage brauchen Sie kein Netz.",
-        "Auf dem iPhone legen Sie den Begleiter danach am besten auf den Home-Bildschirm: In Safari auf das Teilen-Symbol tippen und *Zum Home-Bildschirm* wählen. So bleibt der Speicher erhalten. Auf Android bietet Chrome im Menü mit den drei Punkten *Zum Startbildschirm hinzufügen* oder *App installieren* an."
+        "Bereiten Sie den Begleiter einmal im WLAN vor, zum Beispiel im Hotel. Legen Sie ihn *zuerst* auf den Startbildschirm Ihres Handys: auf dem iPhone in Safari das Teilen-Symbol tippen und *Zum Home-Bildschirm* wählen, auf Android in Chrome im Menü mit den drei Punkten *Zum Startbildschirm hinzufügen* oder *App installieren*.",
+        "Öffnen Sie den Begleiter danach über das neue Symbol, geben Sie dort das Passwort ein und warten Sie, bis oben rechts *Für offline bereit* erscheint. Das Symbol hat auf manchen Handys einen eigenen Speicher; deshalb gehört die Vorbereitung dorthin. Dann sind alle Texte, Bilder und der Plan gespeichert, und in der Anlage brauchen Sie kein Netz."
       ]
     },
     {
       "ueberschrift": "Ihr Standort im Plan",
       "absaetze": [
-        "Im Plan können Sie Ihren Standort anzeigen lassen. Das Handy fragt dann einmal um Erlaubnis. Der Punkt ist auf einige Meter genau; der blasse Kreis um ihn zeigt die Ungenauigkeit. Zur Orientierung reicht das gut, um benachbarte Mauern zu unterscheiden, eher nicht. Der Plan ist so gedreht, dass oben bergauf liegt, also Richtung des großen Tempels.",
+        "Im Plan können Sie Ihren Standort anzeigen lassen. Das Handy fragt dann einmal um Erlaubnis. Der Punkt ist auf einige Meter genau; der blasse Kreis um ihn zeigt die Ungenauigkeit. Zur Orientierung reicht das gut. Um benachbarte Mauern zu unterscheiden, ist es meist zu ungenau. Der Plan ist so gedreht, dass oben bergauf liegt, also Richtung des großen Tempels.",
         "Wer den Standort nicht freigeben möchte, kann den Plan genauso benutzen."
       ]
     },
@@ -71,7 +71,7 @@
       "absaetze": [
         "Laut Website des griechischen Kulturministeriums ist die Anlage im Sommerhalbjahr täglich von 8 bis 20 Uhr geöffnet; das Kombiticket für Asklepieion, Archäologisches Museum und Casa Romana kostet 15 Euro (Stand: 15. Oktober 2026). Ab November gelten wahrscheinlich kürzere Winterzeiten.",
         "Es gibt viele Stufen und unebene Wege und auf der oberen Terrasse wenig Schatten. Wasser, Kopfbedeckung und feste Schuhe sind sinnvoll.",
-        "Alle historischen Angaben sind mit Quellen belegt; die Liste steht am Ende jeder Seite. Wo die Forschung unsicher ist oder streitet, sagen die Texte das ausdrücklich. Die Rekonstruktionen sind vereinfachte Zeichnungen und keine exakten Bauaufnahmen."
+        "Alle historischen Angaben sind mit Quellen belegt; die Liste steht am Ende jeder Seite. Wo die Forschung unsicher ist oder streitet, sagen die Texte das ausdrücklich. Die Rekonstruktionen sind vereinfachte Zeichnungen oder Rekonstruktionsversuche und keine exakten Bauaufnahmen."
       ]
     }
   ]

@@ -7,6 +7,8 @@ self.PRECACHE = [
   "content/themen.json",
   "css/app.css",
   "fonts/inter-latin.woff2",
+  "fonts/OFL-Inter.txt",
+  "fonts/OFL-SourceSerif4.txt",
   "fonts/source-serif-4-italic-latin.woff2",
   "fonts/source-serif-4-latin.woff2",
   "icons/apple-touch-icon.png",
@@ -41,4 +43,4 @@ self.PRECACHE = [
   "js/speech.js",
   "manifest.webmanifest"
 ];
-self.CACHE_VERSION = "c1edf42c638f";
+self.CACHE_VERSION = "4a4b598016d3";
