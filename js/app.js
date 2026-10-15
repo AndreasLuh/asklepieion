@@ -2,6 +2,7 @@ import { parseRoute } from "./router.js";
 import { loadContent } from "./content.js";
 import { createPlayer } from "./speech.js";
 import { createProgress } from "./progress.js";
+import { renderPlan, stopStandort } from "./geo.js";
 import { renderOrt, renderThema, renderRundgang, renderThemen, renderEinfuehrung } from "./render.js";
 
 const ansicht = document.getElementById("ansicht");
@@ -83,7 +84,7 @@ function zeigen() {
     el = t ? renderThema(t, ctx) : meldung("Dieses Thema gibt es nicht.");
   } else if (route.view === "rundgang") el = renderRundgang(inhalt.site, inhalt.orte, ctx);
   else if (route.view === "themen") el = renderThemen(inhalt.themen, ctx);
-  else if (route.view === "plan") el = meldung("Plan folgt.");
+  else if (route.view === "plan") el = renderPlan(inhalt.site, inhalt.orte, ctx);
   else el = renderEinfuehrung(inhalt.site, ctx);
   ansicht.replaceChildren(el);
   beobachteEnde(route.id);
@@ -103,7 +104,7 @@ async function start() {
     isSeen: fortschritt.isSeen,
     onSpeak: (abschnitte, box) => { const id = parseRoute(location.hash).id; sprechen(abschnitte, box, () => id && fortschritt.markSeen(id)); },
   };
-  addEventListener("hashchange", () => { player.stop(); zeigen(); });
+  addEventListener("hashchange", () => { player.stop(); stopStandort(); zeigen(); });
   zeigen();
 }
 
