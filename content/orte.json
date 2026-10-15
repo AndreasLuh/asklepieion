@@ -1,1 +1,162 @@
-{ "orte": [] }
+{
+  "orte": [
+    {
+      "id": "hain",
+      "nr": 1, "terrasse": "eingang",
+      "titel": "Am Eingang: der heilige Hain",
+      "untertitel": "Zypressenhain des Apollon · seit vorklassischer Zeit",
+      "lat": 36.87650, "lon": 27.25790,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Bevor Sie die Anlage betreten: Schauen Sie den Hang hinauf. Vor Ihnen steigen drei Terrassen übereinander an, ganz oben stand der große Tempel. Ringsum wachsen Zypressen und Kiefern. Schon in der Antike war dieser Ort ein Hain, ein heiliger Wald.",
+          "Er gehörte zuerst nicht Asklepios, sondern seinem Vater Apollon. Der trug hier den Beinamen Kyparissios, „Herr der Zypressen“. Ein heiliges Gesetz, das in Stein gemeißelt erhalten ist, regelte den Schutz des Hains. Erst im 4. Jahrhundert v. Chr., als die neue Stadt Kos gegründet wurde, kam Asklepios hinzu, und mit ihm begann der Ausbau zum großen Heiligtum.",
+          "Die Stadt Kos liegt drei bis vier Kilometer entfernt. Wer in der Antike hierher kam, verließ also bewusst die Stadt und betrat eine eigene Welt aus Bäumen, Wasser und Tempeln."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Ein Ort mit vielen Göttern", "absaetze": [
+          "Nach dem griechischen Kulturministerium wurde der Platz schon vor Asklepios genutzt. Funde, vor allem aus Gräbern, reichen bis in die mykenische und geometrische Zeit zurück. Später verehrte man hier den Heilgott Paiéon, Apollon und weitere Gottheiten der Koer, etwa Zeus Hikesios, den Beschützer der Schutzsuchenden, und die Moiren, die Schicksalsgöttinnen."
+        ] },
+        { "ueberschrift": "Das Gesetz über den Hain", "absaetze": [
+          "Die Inschrift mit den Regeln für den Hain ist eines der ältesten Zeugnisse des Ortes. Wann genau sie entstand, ist umstritten: Rudolf Herzog, der Ausgräber, datierte sie ins späte 5. Jahrhundert v. Chr., die Epigraphikerin Susan Sherwin-White ins letzte Viertel des 4. Jahrhunderts. Im zweiten Fall wäre sie ungefähr gleichzeitig mit dem Beginn des Asklepioskults.",
+          "Die Bäume, die Sie heute sehen, sind natürlich viel jünger. Der Name des Hains lebte aber weiter: Die frühchristliche Kirche, die später im großen Tempel gebaut wurde, hieß Panagia Tarsou. „Tarsou“ ist wohl aus „tou Alsous“ entstanden, „des Hains“."
+        ] }
+      ],
+      "themen": ["asklepios", "kos-geschichte"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ασκληπιείο Κω, Website des griech. Kulturministeriums (odysseus.culture.gr, obj_id 2395), abgerufen 15.10.2026",
+        "Oxford CSAD, Dated Koan Inscriptions (Gesetz über den heiligen Hain; Datierung Herzog vs. Sherwin-White)",
+        "P. Schievink, Asklepieion of Kos, Database of Religious History, UBC 2023"
+      ]
+    },
+    {
+      "id": "propylon",
+      "nr": 2, "terrasse": "unten",
+      "titel": "Propylon und Treppe",
+      "untertitel": "Torbau mit vier Säulen · hellenistisch",
+      "lat": 36.876362, "lon": 27.257625,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Über eine eindrucksvolle Treppe stieg man zu einem großen Tor hinauf, dem Propylon, griechisch „das vor dem Tor Liegende“. Vier Säulen trugen seine Front. Von dem Bau sind heute vor allem die Fundamente und einige Stufen erhalten.",
+          "Das Tor markierte die Grenze: Hinter ihm begann der heilige Bezirk. Wer hindurchging, betrat die untere Terrasse, einen weiten, von Säulenhallen umgebenen Platz. Hier begann für die Kranken der Aufenthalt im Heiligtum."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Wann wurde es gebaut?", "absaetze": [
+          "Die Datierung ist nicht ganz einheitlich. Das Schild vor Ort nennt das 3. Jahrhundert v. Chr. Das griechische Kulturministerium ordnet den monumentalen Torbau dagegen der großen Ausbauphase im frühen 2. Jahrhundert v. Chr. zu, als das Heiligtum unter dem Schutz von König Eumenes II. von Pergamon stand. Möglich ist, dass ein älterer Zugang damals prächtig erneuert wurde.",
+          "Für die Wirkung macht das wenig Unterschied: Das Tor war der Auftakt einer Inszenierung, die Ihre Blicke über Treppen und Terrassen bis zum Tempel ganz oben führen sollte."
+        ] }
+      ],
+      "themen": ["heilsuchende", "kos-geschichte"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): tetrastyles Propylon, Ausbau unter Eumenes II.",
+        "Beschilderung vor Ort, nach OpenStreetMap-Eintrag „Propylon, 3rd Century B.C.“ (abgerufen 15.10.2026)"
+      ]
+    },
+    {
+      "id": "untere-terrasse",
+      "nr": 3, "terrasse": "unten",
+      "titel": "Die untere Terrasse und ihre Hallen",
+      "untertitel": "Dorische Säulenhalle in Π-Form · 3. Jh. v. Chr.",
+      "lat": 36.876148, "lon": 27.257778,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Sie stehen auf der untersten und größten Terrasse. Auf drei Seiten, im Norden, Westen und Osten, umgab sie eine Säulenhalle im dorischen Stil, im Grundriss geformt wie der griechische Buchstabe Π. Heute sind von ihr nur noch die Fundamente zu sehen.",
+          "Eine solche Halle, griechisch *stoa*, bot Schatten und Schutz vor Regen. Hinter den Säulen öffneten sich Räume für Pilger und Kranke. Das griechische Kulturministerium beschreibt diese Terrasse als den Ort, an dem die Kranken behandelt wurden: eine Art Hof oder Platz, auf dem sich das tägliche Leben des Heiligtums abspielte.",
+          "Stellen Sie sich den Platz belebt vor: Kranke und Angehörige, Tempeldiener, Händler mit Opfertieren und kleinen Weihgaben, dazwischen das Plätschern von Wasser."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Wasser entlang der Hallen", "absaetze": [
+          "Entlang der Hallen liefen marmorne Rinnen. Nach dem Ministerium floss darin wohl Wasser, das dem Platz Frische gab. Wasser war im Heiligtum allgegenwärtig: zum Waschen vor dem Gebet, zum Trinken, zum Baden.",
+          "An den Enden der Südseite reichten die Seitenflügel der Halle nicht ganz bis an die Stützmauer heran. So entstanden zwei breite Durchgänge."
+        ] },
+        { "ueberschrift": "Ein Krankenhaus?", "absaetze": [
+          "Gerade diese Räume hinter den Hallen haben dem Asklepieion den Ruf eingebracht, ein „Krankenhaus“ gewesen zu sein. Richtig ist: Hier konnten Kranke wohnen und sich erholen. Ein Krankenhaus im heutigen Sinn mit Stationen und Pflege war es aber nicht. Mehr dazu im Thema über das „größte Krankenhaus der Antike“."
+        ] }
+      ],
+      "themen": ["alltag", "krankenhaus", "heilsuchende"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Π-förmige dorische Halle des 3. Jh. v. Chr., Räume für Pilger und Kranke, Marmorrinnen, Durchgänge"
+      ]
+    },
+    {
+      "id": "brunnenwand",
+      "nr": 4, "terrasse": "unten",
+      "titel": "Brunnen, Quellen und die Statue des Xenophon",
+      "untertitel": "Stützmauer mit Nischen · römische Zeit",
+      "lat": 36.875863, "lon": 27.257302,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Die Südseite der unteren Terrasse bildet die hohe Stützmauer, auf der die mittlere Terrasse ruht. In römischer Zeit wurden in diese Mauer Nischen gebaut: für Statuen, für Brunnen mit Heilwasser und für Wasserbecken. In einem der Becken sammelt sich bis heute Quellwasser.",
+          "Das Wasser kam aus zwei Quellen in den Hügeln: dem eisenhaltigen Kokkinonero, dem „roten Wasser“, im Südwesten und der Vourinna im Südosten, die noch heute die Stadt Kos versorgt. Für ein Heiligtum der Heilung war Wasser unverzichtbar: zum Reinigen, zum Trinken, zum Baden."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Ein Arzt der Kaiser", "absaetze": [
+          "Westlich der Treppe liegt eine Nische mit einer Front wie ein kleiner Tempel. Darin steht eine Statuenbasis mit Inschrift. Gestiftet hat sie der berühmte Koer Arzt Gaius Stertinius Xenophon, vielleicht für eine Statue des Kaisers Nero.",
+          "Xenophon machte in Rom eine glänzende Karriere als Leibarzt der Kaiser, vor allem des Claudius. Er nutzte seinen Einfluss für seine Heimat: Nach Tacitus gewährte Claudius der Insel 53 n. Chr. auf seine Fürsprache hin Steuerfreiheit. Im Heiligtum finanzierte Xenophon eine neue Wasserversorgung, Thermen, einen kleinen Tempel und eine Bibliothek.",
+          "Tacitus erzählt auch eine dunkle Geschichte: Als Claudius 54 n. Chr. starb, habe Xenophon ihm im Auftrag der Kaiserin Agrippina mit einer vergifteten Feder den Rest gegeben. Ob das stimmt, lässt sich nicht prüfen; schon antike Autoren erzählten den Tod des Claudius sehr unterschiedlich."
+        ] }
+      ],
+      "themen": ["heilschlaf", "kos-geschichte"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Nischen, Brunnen, Quellen Kokkinonero und Vourinna, Statuenbasis des Xenophon, Stiftungen",
+        "Tacitus, Annalen 12.61 (Steuerfreiheit) und 12.67 (Tod des Claudius)"
+      ]
+    },
+    {
+      "id": "latrinen",
+      "nr": 5, "terrasse": "unten",
+      "titel": "Die Latrinen",
+      "untertitel": "Öffentliche Toiletten · 1. Jh. n. Chr.",
+      "lat": 36.87620, "lon": 27.25690,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Am westlichen Ende der Säulenhalle haben sich Toiletten aus dem 1. Jahrhundert n. Chr. erhalten. Auf Griechisch heißen sie bis heute „Vespasianes“, nach dem römischen Kaiser Vespasian, der der Überlieferung nach eine Steuer auf Urin erhob. Der wurde von Gerbern und Wäschern gesammelt.",
+          "Römische Gemeinschaftslatrinen sahen meist so aus: Man saß nebeneinander auf einer Steinbank mit Öffnungen, darunter floss Wasser in einem Kanal und spülte alles fort. Ob die Anlage hier genau so gebaut war, beschreibt die Literatur, die uns vorliegt, nicht im Einzelnen."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Hygiene im Heiligtum", "absaetze": [
+          "Die Latrinen zeigen, wie viele Menschen hier zusammenkamen und wie sehr man in römischer Zeit auf Wasser und Sauberkeit achtete. Mit der Wasserleitung, die Xenophon stiftete, den Brunnen und den Thermen war das Asklepieion gut versorgt.",
+          "Die genaue Lage der Latrinen ist im Plan nur ungefähr eingezeichnet."
+        ] }
+      ],
+      "themen": ["alltag"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Toiletten (Vespasianes) am Westende der Halle, 1. Jh. n. Chr.",
+        "Sueton, Vespasian 23 (Urinsteuer)"
+      ]
+    },
+    {
+      "id": "thermen",
+      "nr": 6, "terrasse": "unten",
+      "titel": "Die römischen Thermen",
+      "untertitel": "Badeanlage mit drei Sälen · 3. Jh. n. Chr.",
+      "lat": 36.876030, "lon": 27.258342,
+      "kurz": [
+        { "ueberschrift": null, "absaetze": [
+          "Östlich der Säulenhalle wurde eine römische Badeanlage aus dem 3. Jahrhundert n. Chr. ausgegraben. Sie besteht aus drei Sälen, deren Schmalseiten in halbrunden Nischen, den Apsiden, enden. Hier lagen die Kalt- und die Warmbäder. Reste von Wandmalereien und Mosaikböden sind erhalten.",
+          "Baden war für Römer und Griechen der Kaiserzeit mehr als Körperpflege: ein Ort der Erholung, der Gespräche und, in einem Heiligtum der Heilung, Teil der Kur."
+        ] }
+      ],
+      "mehr": [
+        { "ueberschrift": "Zwei Bauphasen", "absaetze": [
+          "Diese Thermen sind nicht die ersten im Heiligtum. Schon im 1. Jahrhundert n. Chr. ließ der Arzt Gaius Stertinius Xenophon einen großen Badekomplex bauen und dafür das Wasser heranführen. Im 3. Jahrhundert kamen dann die Thermen an der Ostseite hinzu, vor denen Sie stehen.",
+          "Ein römisches Bad durchlief man meist in einer festen Folge: vom Umkleideraum ins lauwarme Bad, dann ins heiße und zum Schluss ins kalte Wasser. Der Boden der warmen Räume wurde von unten beheizt. Wie die Säle hier im Einzelnen genutzt wurden, ist in den uns vorliegenden Quellen nicht beschrieben."
+        ] }
+      ],
+      "themen": ["heilschlaf", "alltag"],
+      "bilder": { "heute": null, "rekonstruktion": null },
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Thermen des 3. Jh. n. Chr. mit drei apsidialen Sälen, Wandmalerei, Mosaiken; Thermen des Xenophon im 1. Jh. n. Chr."
+      ]
+    }
+  ]
+}
