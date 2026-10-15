@@ -1,1 +1,414 @@
-{ "themen": [] }
+{
+  "themen": [
+    {
+      "id": "asklepios",
+      "titel": "Asklepios und Apollon",
+      "untertitel": "Wer war der Gott, dem dieses Heiligtum gehörte?",
+      "abschnitte": [
+        {
+          "ueberschrift": "Ein Gott mit sterblicher Mutter",
+          "absaetze": [
+            "Asklepios war in der griechischen Vorstellung zunächst kein großer Olympier, sondern ein Halbgott. Der Dichter Pindar erzählt im 5. Jahrhundert v. Chr. seine Geschichte so: Apollon liebte die sterbliche Koronis. Als sie ihm untreu wurde, ließ er sie töten. Das ungeborene Kind holte er noch vom Scheiterhaufen und übergab es dem weisen Kentauren Chiron. Bei ihm lernte Asklepios, Wunden zu verbinden, Kräuter anzuwenden und Krankheiten zu lindern.",
+            "Seine Kunst wurde so groß, dass er sogar einen Toten ins Leben zurückholte, nach Pindar gegen Gold. Damit verletzte er die Grenze zwischen Menschen und Göttern, und Zeus erschlug ihn mit dem Blitz. Später wurde Asklepios dennoch als Gott verehrt. Diese doppelte Herkunft, halb menschlich und halb göttlich, machte ihn zu einem Gott, der den Menschen und ihren Leiden besonders nahe stand."
+          ]
+        },
+        {
+          "ueberschrift": "Eine Familie der Gesundheit",
+          "absaetze": [
+            "Zu Asklepios gehörte eine ganze Familie: seine Frau Epione, „die Lindernde“, und Töchter wie Hygieia, „Gesundheit“, und Panakeia, „die Allheilende“. Aus Hygieia stammt unser Wort Hygiene, aus Panakeia das Allheilmittel, die Panazee. Auf Kos stiftete im 1. Jahrhundert n. Chr. der Arzt Gaius Stertinius Xenophon einen kleinen Tempel für Asklepios, Hygieia und Epione gemeinsam.",
+            "Sein Zeichen war der Stab mit der Schlange. Die Schlange, die sich häutet und gleichsam erneuert, galt als heiliges Tier des Gottes. Der Äskulapstab ist bis heute das Symbol der Medizin, das Sie etwa auf Apothekenschildern sehen."
+          ]
+        },
+        {
+          "ueberschrift": "Apollon, der ältere Herr des Ortes",
+          "absaetze": [
+            "Bevor Asklepios auf Kos verehrt wurde, gehörte der Platz anderen Gottheiten. Nach dem griechischen Kulturministerium wurden hier der Heilgott Paiéon und vor allem Apollon verehrt. Er trug den Beinamen Kyparissios, „Herr der Zypressen“, weil ihm der Zypressenhain gehörte, der das Heiligtum umgab und durch ein heiliges Gesetz geschützt war. Wer Bäume fällte, beging einen Frevel.",
+            "Erst im 4. Jahrhundert v. Chr., ungefähr zur Zeit der Gründung der Stadt Kos, kam der Kult des Asklepios hinzu. Vater und Sohn teilten sich nun das Heiligtum. Der große römische Tempel mit den wieder aufgerichteten Säulen auf der mittleren Terrasse war wahrscheinlich Apollon geweiht. Ganz sicher ist das allerdings nicht.",
+            "Auch der Eid, den die Ärzte der hippokratischen Tradition ablegten, beginnt mit beiden Namen: Geschworen wird „bei Apollon dem Arzt und Asklepios und Hygieia und Panakeia und allen Göttern und Göttinnen“."
+          ]
+        },
+        {
+          "ueberschrift": "Ein Kult, der wanderte",
+          "absaetze": [
+            "Das wichtigste Heiligtum des Asklepios lag in Epidauros auf der Peloponnes. Von dort breitete sich sein Kult aus: 420 v. Chr. kam er nach Athen, 293 v. Chr. nach Rom, wo der Gott als Aesculapius auf der Tiberinsel ein Heiligtum erhielt. Kos wurde zu einem der berühmtesten Orte seiner Verehrung, neben Epidauros und später Pergamon in Kleinasien.",
+            "Für die Menschen der Antike war Asklepios kein ferner Gott. Man suchte ihn auf, wenn man krank war, und dankte ihm, wenn man gesund wurde. Wie das genau vor sich ging, erzählen die Themen über den Weg der Heilsuchenden und den Heilschlaf."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "Pindar, Pythische Oden 3 (Geburt, Erziehung und Tod des Asklepios)",
+        "Hippokratischer Eid, Eingangsformel",
+        "D. Bosnakis / E. Skerlou, Ασκληπιείο Κω, Website des griech. Kulturministeriums (odysseus.culture.gr, obj_id 2395), abgerufen 15.10.2026: Vorgängerkulte, Zypressenhain, Tempel des Xenophon, korinthischer Tempel",
+        "Telemachos-Monument, Athen (IG II² 4960): Einführung des Kults 420 v. Chr.",
+        "Livius 10,47 und Periochae 11: Überführung nach Rom 293 v. Chr."
+      ]
+    },
+    {
+      "id": "hippokrates",
+      "titel": "Hippokrates und die Gründungslegende",
+      "untertitel": "Was wir über den berühmtesten Arzt von Kos wissen – und was nicht",
+      "abschnitte": [
+        {
+          "ueberschrift": "Ein Name, den jeder kennt",
+          "absaetze": [
+            "Hippokrates von Kos gilt als „Vater der Medizin“. Er lebte ungefähr von 460 bis 370 v. Chr. und war damit ein Zeitgenosse des Sokrates. Nach der Überlieferung starb er hochbetagt im thessalischen Larissa. Schon diese Lebensdaten sind nur ungefähr bekannt. Die erste ausführliche Lebensbeschreibung stammt von dem Arzt Soranos aus dem 2. Jahrhundert n. Chr., also aus der Zeit rund fünfhundert Jahre nach seinem Tod.",
+            "Der einzige Zeitgenosse, der Hippokrates erwähnt, ist der Philosoph Platon. In seinem Dialog *Protagoras* nennt er ihn einen „Asklepiaden“ aus Kos, der gegen Bezahlung Schüler unterrichtet. Asklepiaden nannten sich Ärztefamilien, die ihre Abstammung auf Asklepios zurückführten und ihr Wissen vom Vater auf den Sohn weitergaben."
+          ]
+        },
+        {
+          "ueberschrift": "Die Legende: Hippokrates lernte im Heiligtum",
+          "absaetze": [
+            "Die schöne Gründungsgeschichte lautet so: Hippokrates habe hier im Asklepieion gelernt und gelehrt, und aus den Heilungen im Heiligtum sei die wissenschaftliche Medizin entstanden. Der Geograph Strabon schrieb um die Zeitenwende, Hippokrates habe seine Lehre von der richtigen Lebensweise vor allem aus den Heilberichten auf den Votivtafeln des Heiligtums gewonnen.",
+            "Diese Erzählung ist alt, aber sie ist *eine Legende* im Wortsinn: eine Geschichte, die später erzählt wurde, um einen berühmten Ort mit einem berühmten Namen zu verbinden."
+          ]
+        },
+        {
+          "ueberschrift": "Der Befund: Das Heiligtum ist jünger",
+          "absaetze": [
+            "Die Archäologie erzählt etwas anderes. Der älteste Bau des Asklepieions, der große Altar auf der mittleren Terrasse, entstand um die Mitte des 4. Jahrhunderts v. Chr. Die Hallen, die Tempel und die Terrassen, die Sie heute sehen, wurden im 3. und 2. Jahrhundert v. Chr. gebaut, die Thermen und vieles andere erst in römischer Zeit. Als Hippokrates um 370 v. Chr. starb, gab es dieses Heiligtum also noch nicht oder höchstens in seinen Anfängen.",
+            "Das griechische Kulturministerium formuliert vorsichtig: Auf Kos habe sich die wissenschaftliche Medizin besonders entwickelt, auch dank der Schule, die Hippokrates auf der Insel gegründet hatte. Dass Hippokrates selbst im Heiligtum arbeitete, ist dagegen nicht belegt."
+          ]
+        },
+        {
+          "ueberschrift": "Hippokrates und die „hippokratischen“ Schriften",
+          "absaetze": [
+            "Unter dem Namen des Hippokrates sind rund sechzig Schriften überliefert, das *Corpus Hippocraticum*. Sie stammen aber von verschiedenen Verfassern aus mehreren Generationen. Welche davon Hippokrates selbst schrieb, lässt sich nicht sicher sagen; vielleicht keine einzige.",
+            "Was diese Texte verbindet, ist ein Ansatz: Krankheiten haben natürliche Ursachen, die man beobachten und beschreiben kann. Die Schrift *Über die heilige Krankheit* etwa bestreitet, dass die Epilepsie von Göttern geschickt werde, und sucht ihre Ursache im Körper. Andere Schriften beschreiben Krankheitsverläufe Tag für Tag und verschweigen auch die Todesfälle nicht.",
+            "Hippokrates ist damit weniger eine greifbare Person als ein Name, unter dem sich eine neue Art des ärztlichen Denkens sammelte. Kos war einer ihrer wichtigsten Orte, und das Asklepieion wurde später zu ihrem Symbol."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "Platon, Protagoras 311b–c (Hippokrates als Asklepiade, Unterricht gegen Bezahlung)",
+        "Strabon, Geographika 14.2.19 (Übers. H. L. Jones, Loeb 1928): Diätetik aus den Votivtafeln",
+        "Soranos von Ephesos, Leben des Hippokrates (2. Jh. n. Chr.)",
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Datierung von Altar und Bauten; Schule des Hippokrates",
+        "P. Schievink, Asklepieion of Kos, Database of Religious History, UBC 2023 (Altar Mitte/2. Hälfte 4. Jh.)",
+        "Corpus Hippocraticum: Über die heilige Krankheit; Epidemien"
+      ]
+    },
+    {
+      "id": "kos-geschichte",
+      "titel": "Kos zwischen Klassik und Rom",
+      "untertitel": "Die Insel und ihr Heiligtum im Lauf der Geschichte",
+      "abschnitte": [
+        {
+          "ueberschrift": "Eine dorische Insel im Grenzraum",
+          "absaetze": [
+            "Kos liegt nur wenige Kilometer vor der kleinasiatischen Küste, der heutigen Türkei. Von der oberen Terrasse sehen Sie hinüber. Die Insel wurde von dorischen Griechen besiedelt und lag damit an einer Nahtstelle: zwischen der griechischen Inselwelt und den großen Reichen im Osten.",
+            "Im 5. Jahrhundert v. Chr., zur Zeit des Hippokrates, gehörte Kos zum Seebund unter der Führung Athens. Die Hauptstadt lag damals noch nicht dort, wo heute Kos-Stadt liegt."
+          ]
+        },
+        {
+          "ueberschrift": "366 v. Chr.: eine neue Stadt",
+          "absaetze": [
+            "366 v. Chr. schlossen sich die Gemeinden der Insel zu einer neuen Hauptstadt zusammen, an der Stelle des heutigen Kos-Stadt. Fachleute nennen das einen Synoikismos, ein „Zusammensiedeln“. In diese Zeit fällt auch der Beginn des Asklepioskults an diesem Hang: Um die Mitte des 4. Jahrhunderts entstand der große Altar. Das Heiligtum lag drei bis vier Kilometer außerhalb der Stadt, im Grünen und mit Blick auf das Meer."
+          ]
+        },
+        {
+          "ueberschrift": "Im Zeitalter der Könige",
+          "absaetze": [
+            "Nach Alexander dem Großen teilten seine Nachfolger die Welt unter sich auf. Kos stand lange unter dem Einfluss der Ptolemäer, der Könige Ägyptens; Ptolemaios II. wurde 309/308 v. Chr. auf Kos geboren. Die Insel war wohlhabend und berühmt für Wein, feine Stoffe und Gelehrsamkeit. Strabon nennt neben Hippokrates auch Ärzte und Dichter der Insel.",
+            "242 v. Chr. gelang den Koern ein großer diplomatischer Erfolg: Gesandte reisten zu Königen und Städten der ganzen hellenistischen Welt und ließen das Asklepieion als „asylon“ anerkennen, als unverletzlich, also geschützt vor Krieg und Plünderung. Zugleich luden sie zu einem neuen Fest ein, den Großen Asklepieia mit musischen und sportlichen Wettkämpfen. Ob einzelne Anerkennungen schon 243 erfolgten, ist in der Forschung umstritten.",
+            "Im frühen 2. Jahrhundert v. Chr. stand das Heiligtum nach dem Kulturministerium unter dem Schutz von König Eumenes II. von Pergamon. In dieser Zeit erhielt es seine heutige monumentale Gestalt mit der großen Treppe und dem dorischen Tempel ganz oben."
+          ]
+        },
+        {
+          "ueberschrift": "Unter Rom",
+          "absaetze": [
+            "In der römischen Kaiserzeit blieb Kos ein angesehener Ort. Ein Koer machte in Rom Karriere: Gaius Stertinius Xenophon wurde Leibarzt des Kaisers Claudius. Auf sein Betreiben gewährte Claudius der Insel 53 n. Chr. Steuerfreiheit, wie der Historiker Tacitus berichtet. Xenophon finanzierte im Heiligtum eine Wasserleitung, Thermen, einen kleinen Tempel und eine Bibliothek.",
+            "Erdbeben trafen das Heiligtum immer wieder. Im 2. Jahrhundert n. Chr. entstand der korinthische Tempel auf der mittleren Terrasse, im 3. Jahrhundert weitere Thermen. Münzfunde zeigen, dass der Ort noch im 4. Jahrhundert n. Chr. besucht wurde."
+          ]
+        },
+        {
+          "ueberschrift": "Vergessen und wiederentdeckt",
+          "absaetze": [
+            "Nach den Erdbeben von 469 und 554 n. Chr. wurde das Heiligtum aufgegeben. Im Vorraum des großen Tempels baute man eine Kirche, die Panagia Tarsou. Der Name soll aus „tou Alsous“ entstanden sein, „des Hains“, eine Erinnerung an den alten Zypressenhain. Im Spätmittelalter holten die Johanniterritter Steine aus der Ruine für ihre Burg am Hafen von Kos-Stadt.",
+            "Zu Beginn des 20. Jahrhunderts suchte der deutsche Archäologe Rudolf Herzog nach dem Heiligtum. Nach einem Hinweis des koischen Heimatforschers Iakovos Zarraftis legte er es zwischen 1901/02 und 1905 frei. Damals gehörte Kos zum Osmanischen Reich; ab 1912 war die Insel italienisch besetzt. In den 1930er Jahren gruben italienische Archäologen weiter und richteten Teile der Anlage wieder auf. Das Bild, das Sie heute sehen, geht wesentlich auf diese Wiederaufbauten zurück."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Bauphasen, Eumenes II., Xenophon, Erdbeben 469/554, Panagia Tarsou, Johanniter, Herzog und Zarraftis 1901–1905, italienische Grabungen",
+        "P. Schievink, Asklepieion of Kos, UBC 2023: Synoikismos 366 v. Chr., Lage 3–4 km außerhalb",
+        "Strabon, Geographika 14.2.19",
+        "Theokrit, Idyll 17 (Geburt Ptolemaios' II. auf Kos)",
+        "Tacitus, Annalen 4.14 und 12.61",
+        "A. Coşkun, The Chronology of the Asylia Dossier from Kos Revisited (2021); E. Interdonato, Bollettino di Archeologia online 2010 (Asklepieia 242/241 v. Chr.)"
+      ]
+    },
+    {
+      "id": "heilsuchende",
+      "titel": "Der Weg der Heilsuchenden",
+      "untertitel": "Herkunft, Anreise, Aufnahme und Kosten",
+      "abschnitte": [
+        {
+          "ueberschrift": "Woher kamen sie?",
+          "absaetze": [
+            "Seit 242 v. Chr. war das Asklepieion in der ganzen griechischen Welt bekannt: Gesandte hatten von Makedonien bis Kleinasien für das Heiligtum und sein Fest geworben. Kranke kamen von der Insel selbst, aus den Nachbarinseln und von der nahen Küste, wohl auch von weiter her.",
+            "Wer genau kam, wissen wir für Kos leider nicht. Anders als in Epidauros sind hier keine Heilberichte mit Namen und Herkunft der Patienten erhalten. In Epidauros nennen die Inschriften Pilger aus vielen Gegenden Griechenlands, etwa einen Hermon von der Insel Thasos. Dass es auf Kos ähnlich war, ist wahrscheinlich, aber nicht belegt."
+          ]
+        },
+        {
+          "ueberschrift": "Die Anreise",
+          "absaetze": [
+            "Wer von weiter her kam, landete im Hafen von Kos-Stadt und machte sich auf den Weg hinaus aufs Land, drei bis vier Kilometer leicht bergan. Dann tauchte das Heiligtum auf: Terrasse über Terrasse am Hang, ganz oben der große Tempel, ringsum der Zypressenhain. Die Anlage war so gebaut, dass sie von unten wie eine Bühne wirkte.",
+            "Durch ein Tor mit vier Säulen, das Propylon, betrat man die untere Terrasse. Die Treppe, über die Sie hinaufsteigen, nahmen auch die Kranken der Antike."
+          ]
+        },
+        {
+          "ueberschrift": "Die Aufnahme",
+          "absaetze": [
+            "Wie die Aufnahme auf Kos ablief, ist nicht überliefert. Andere Heiligtümer geben aber eine gute Vorstellung, und die folgenden Beispiele stammen deshalb von dort.",
+            "Im Heiligtum des Heilheros Amphiaraos in Oropos bei Athen galt im 4. Jahrhundert v. Chr. ein in Stein gemeißeltes Gesetz: Der Priester sollte regelmäßig anwesend sein, ein Tempeldiener die Besucher beaufsichtigen. Wer geheilt werden wollte, musste eine Gebühr zahlen und vor dem Schlaf ein Opfer bringen. Männer und Frauen schliefen getrennt.",
+            "Am Asklepieion im Hafen von Athen schrieb eine Inschrift Voropfer vor, kleine Kuchen für eine ganze Reihe von Gottheiten. Typisch war außerdem die Reinigung: Waschen mit Quellwasser, saubere Kleidung, manchmal Verzicht auf bestimmte Speisen. Erst dann durfte man den heiligen Bezirk für den Heilschlaf betreten."
+          ]
+        },
+        {
+          "ueberschrift": "Was kostete die Heilung?",
+          "absaetze": [
+            "Für Kos selbst ist keine Preisliste erhalten. Aus Oropos kennen wir eine genaue Zahl: Wer geheilt werden wollte, zahlte mindestens neun Obolen in gutem Silber in den Opferstock, und zwar vor den Augen des Tempeldieners. Neun Obolen sind anderthalb Drachmen. Eine Drachme entsprach im Athen dieser Zeit ungefähr dem Tageslohn eines Handwerkers. Die Heilung war also nicht umsonst, aber auch nicht nur für Reiche erschwinglich.",
+            "Dazu kamen Opfertiere, vom Hahn bis zum Schaf, und nach der Heilung ein Dankgeschenk. Wer es vergaß, musste mit dem Zorn des Gottes rechnen: Nach den Inschriften von Epidauros wurde Hermon von Thasos von seiner Blindheit geheilt, zahlte den Dank nicht und erblindete erneut. Erst als er zurückkam und noch einmal im Heiligtum schlief, sah er wieder. Solche Geschichten dienten natürlich auch dazu, die Zahlungsmoral zu stärken.",
+            "Viele Dankgaben waren bescheiden: kleine Nachbildungen geheilter Körperteile aus Ton, Beine, Augen oder Hände. Reiche stifteten Statuen, Gemälde oder ganze Gebäude. Strabon berichtet, das Asklepieion von Kos sei voller Weihgeschenke gewesen.",
+            "Ärzte arbeiteten dagegen für Honorar. Schon Platon erwähnt, dass Hippokrates gegen Bezahlung unterrichtete. Städte stellten Ärzte auch fest an: Herodot erzählt von einem Arzt, dem Aigina, Athen und der Tyrann Polykrates nacheinander immer höhere Jahresgehälter zahlten, zuletzt zwei Talente, ein Vermögen."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "P. Schievink, Asklepieion of Kos, UBC 2023 (für Kos keine Heilberichte erhalten)",
+        "A. Coşkun 2021 (Gesandtschaften 242 v. Chr.)",
+        "Heiliges Gesetz des Amphiareion von Oropos, IG VII 235 (Übers. Osborne/Rhodes 2003, zit. nach Open University, Exploring Ancient Greek Religion 5.3)",
+        "Heiliges Gesetz des Asklepieions im Piräus, IG II² 4962 (Voropfer)",
+        "Heilinschriften von Epidauros (Iamata), 2. Hälfte 4. Jh. v. Chr., Hermon von Thasos (nach Axon 2017)",
+        "Strabon, Geographika 14.2.19 (Weihgeschenke)",
+        "Platon, Protagoras 311b–c; Herodot 3.131 (Gehälter des Arztes Demokedes)",
+        "Bosnakis / Skerlou, Ministeriumstext (Propylon, Lage der Terrassen)"
+      ]
+    },
+    {
+      "id": "heilschlaf",
+      "titel": "Heilschlaf, Wasser und Heilmittel",
+      "untertitel": "Wie im Asklepieion geheilt wurde",
+      "abschnitte": [
+        {
+          "ueberschrift": "Schlafen beim Gott",
+          "absaetze": [
+            "Das Herzstück der Behandlung in den Heiligtümern des Asklepios war der Heilschlaf, griechisch *enkoimesis*, „das Sich-Niederlegen“. Die Kranken verbrachten die Nacht in einem besonderen, abgegrenzten Raum, dem Abaton, „dem Unbetretbaren“. Im Traum erschien ihnen der Gott, oft begleitet von seinen heiligen Schlangen oder Hunden. Er heilte sie unmittelbar oder gab Anweisungen, was sie tun sollten.",
+            "Wie das in der Vorstellung der Zeitgenossen aussah, zeigt eine Komödie des Aristophanes von 388 v. Chr. Ein Diener erzählt von einer Nacht im Heiligtum: Die Lampen werden gelöscht, alle sollen schlafen, und er beobachtet, wie der Priester die Opferkuchen vom Altar einsammelt, „um sie zu weihen“, nämlich in seinen Sack. Das ist Spott, aber er setzt voraus, dass jeder im Publikum den Ablauf kannte."
+          ]
+        },
+        {
+          "ueberschrift": "Und auf Kos?",
+          "absaetze": [
+            "Für Kos ist die Lage weniger klar, als man erwarten würde. Das griechische Kulturministerium geht davon aus, dass auch hier der Heilschlaf geübt wurde, zumindest in hellenistischer Zeit, und dass später Berufsärzte mit eher wissenschaftlichen Methoden behandelten. Auf der mittleren Terrasse steht ein Gebäude, das als Abaton gedeutet wird.",
+            "Doch es gibt für Kos keine Heilberichte, und die Deutung des Gebäudes ist umstritten: Es könnte auch die Wohnung der Priester gewesen sein, und eine neuere Untersuchung hält es für einen Festsaal, in dem man nach dem Opfer gemeinsam aß. Sicher ist nur: Heilschlaf war in den Asklepios-Heiligtümern weit verbreitet. Wo genau er auf Kos stattfand, wissen wir nicht."
+          ]
+        },
+        {
+          "ueberschrift": "Wasser",
+          "absaetze": [
+            "Unbestritten ist die Rolle des Wassers. Zwei Quellen versorgten das Heiligtum: das eisenhaltige Kokkinonero, „rotes Wasser“, im Südwesten und die Vourinna im Südosten, die bis heute die Stadt Kos versorgt. In der Stützmauer der unteren Terrasse liegen Brunnen und Becken; in einem sprudelt noch heute Wasser. Wasser diente der Reinigung vor dem Betreten des Heiligen, zum Trinken und Baden. In römischer Zeit kamen große Thermen hinzu."
+          ]
+        },
+        {
+          "ueberschrift": "Diät statt Wunder",
+          "absaetze": [
+            "Die Ärzte der hippokratischen Tradition setzten vor allem auf die richtige Lebensweise, die *diaita*: Essen und Trinken, Bewegung, Schlaf und Bäder, abgestimmt auf den Kranken, die Jahreszeit und den Ort. Strabon meinte sogar, Hippokrates habe diese Lehre aus den Heilberichten im Asklepieion gewonnen. Daneben kannten sie Abführ- und Brechmittel, den Aderlass, Verbände, das Einrenken von Gelenken und das Richten von Knochenbrüchen.",
+            "Auch die Anweisungen, die der Gott im Traum gab, waren oft erstaunlich praktisch: Bäder, Spaziergänge, bestimmte Speisen oder ihr Verzicht. Der Redner Aelius Aristides, der im 2. Jahrhundert n. Chr. jahrelang im Asklepieion von Pergamon Heilung suchte, berichtet von Traumbefehlen wie kalten Bädern im Winter und Läufen barfuß."
+          ]
+        },
+        {
+          "ueberschrift": "Heilmittel: was wirkte, was nicht",
+          "absaetze": [
+            "Viele antike Heilmittel stammten aus Pflanzen, Mineralien und Tieren. Manches davon hatte eine echte Wirkung. *Honig* zum Beispiel wurde in der Antike auf Wunden gegeben, auch gemischt mit Essig als *Oxymel*. Heute ist im Labor belegt, dass Honig Bakterien hemmt und dass die Mischung mit Essig besonders gut wirkt. In der klinischen Forschung hat sich Honig vor allem bei Verbrennungen bewährt.",
+            "Vorsicht dagegen bei einer beliebten Geschichte: Hippokrates habe gegen Schmerzen und Fieber Weidenrinde verordnet und damit das Aspirin vorweggenommen. In den hippokratischen Schriften wird die Weide kaum erwähnt, und die weiße Weide enthält nur wenig Salicin, den Vorläufer des Wirkstoffs. Die Erzählung ist eine moderne Legende.",
+            "Insgesamt wirkte vieles auf andere Weise, als die Zeitgenossen glaubten: Ruhe, Wasser, Sauberkeit, gute Ernährung, Zuwendung und die feste Erwartung, dass der Gott hilft. Dass Hoffnung und Vertrauen den Heilungsverlauf beeinflussen können, ist auch der heutigen Medizin bekannt."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "Aristophanes, Ploutos (388 v. Chr.), V. 653–747 (Nacht im Asklepieion)",
+        "Bosnakis / Skerlou, Ministeriumstext (odysseus.culture.gr, obj_id 2395): Heilschlaf auf Kos, Abaton, Quellen Kokkinonero und Vourinna, Brunnen",
+        "P. Schievink, Asklepieion of Kos, UBC 2023 (keine Heilberichte für Kos)",
+        "M. Livadiotti, Lo hestiatorion dell'Asklepieion di Kos, Thiasos 2013 (Deutung als Festsaal)",
+        "Strabon, Geographika 14.2.19 (Diätetik)",
+        "Aelius Aristides, Heilige Reden (2. Jh. n. Chr.)",
+        "Microbiology-Studie zu Oxymel gegen Biofilme (Bericht Scientific American); Review zu Honigverbänden (PubMed 19927561)",
+        "The Conversation (2020), Hippocrates and willow bark: what you know about the history of aspirin is probably wrong; Duke University Library, History of Aspirin"
+      ]
+    },
+    {
+      "id": "saeftelehre",
+      "titel": "Die Säftelehre von Hippokrates bis Galen",
+      "untertitel": "Eine Theorie, die zweitausend Jahre die Medizin bestimmte",
+      "abschnitte": [
+        {
+          "ueberschrift": "Vier Säfte im Gleichgewicht",
+          "absaetze": [
+            "Um 400 v. Chr. entstand die Schrift *Über die Natur des Menschen*. Sie wurde später Hippokrates zugeschrieben; wahrscheinlich stammt sie von seinem Schüler Polybos, wie schon Aristoteles annahm. Ihre Grundidee: Der Körper enthält vier Säfte, nämlich Blut, Schleim, gelbe Galle und schwarze Galle. Ist ihr Mischungsverhältnis ausgewogen, ist der Mensch gesund. Überwiegt einer der Säfte oder fehlt er, entsteht Krankheit.",
+            "Die Säfte hängen mit der Natur zusammen. Nach derselben Schrift überwiegt im Winter der Schleim, im Frühjahr das Blut, im Sommer die gelbe Galle und im Herbst die schwarze Galle. Deshalb sollte ein guter Arzt die Jahreszeit, das Klima und die Lebensweise seines Patienten kennen."
+          ]
+        },
+        {
+          "ueberschrift": "Was daraus für die Behandlung folgte",
+          "absaetze": [
+            "Wenn Krankheit ein Ungleichgewicht ist, muss der Arzt das Gleichgewicht wiederherstellen. Dazu diente zuerst die Lebensweise, also Speisen, Getränke, Bewegung und Ruhe, die gezielt wärmen, kühlen, trocknen oder befeuchten sollten. Wo das nicht reichte, sollte überschüssiger Saft aus dem Körper: durch Abführ- und Brechmittel oder durch den Aderlass.",
+            "Gemessen an heutigem Wissen ist die Theorie falsch. Bemerkenswert ist aber ihr Anspruch: Krankheit wird aus dem Körper selbst erklärt, nicht aus dem Zorn der Götter, und der Arzt beobachtet den einzelnen Menschen genau."
+          ]
+        },
+        {
+          "ueberschrift": "Galen: die Lehre wird System",
+          "absaetze": [
+            "Rund sechshundert Jahre später machte Galen die Säftelehre zum Lehrgebäude. Er wurde um 129 n. Chr. in Pergamon geboren, einer Stadt mit einem großen Asklepieion, und wurde später Arzt am Kaiserhof in Rom. Galen verehrte Hippokrates als großes Vorbild und hielt *Über die Natur des Menschen* für ein Werk des Meisters.",
+            "Galen verband die vier Säfte mit den vier Grundqualitäten warm, kalt, trocken und feucht und mit den vier Elementen Feuer, Luft, Wasser und Erde. Blut galt als warm und feucht, gelbe Galle als warm und trocken, schwarze Galle als kalt und trocken, Schleim als kalt und feucht. In seiner Schrift *Über die Mischungen* beschrieb er außerdem, wie die Mischung der Säfte den Charakter prägt. Daraus entwickelte sich die Lehre von den vier Temperamenten: der Sanguiniker vom lateinischen *sanguis*, Blut, der Choleriker von *cholé*, gelbe Galle, der Melancholiker von *melaina cholé*, schwarze Galle, und der Phlegmatiker von *phlegma*, Schleim. Ihre feste Form bekamen diese vier Typen allerdings erst nach Galen."
+          ]
+        },
+        {
+          "ueberschrift": "Ein langes Nachleben",
+          "absaetze": [
+            "Über arabische und lateinische Übersetzungen beherrschte die Säftelehre die Medizin in Europa und im Nahen Osten bis weit in die Neuzeit. Der Aderlass blieb bis ins 19. Jahrhundert eine Standardbehandlung. In unserer Sprache lebt sie bis heute: Wir nennen jemanden phlegmatisch oder cholerisch, sprechen von Melancholie und davon, dass uns etwas „die Galle hochkommen“ lässt.",
+            "Ob Hippokrates selbst die Viersäftelehre vertrat, ist übrigens umstritten. Andere hippokratische Schriften rechnen mit anderen Säften oder mit ganz anderen Ursachen. Die Lehre war nur eine Stimme in einer lebhaften Debatte."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "Corpus Hippocraticum, Über die Natur des Menschen (bes. Kap. 4 und 7)",
+        "D. Leith, Polybus, Not the Son-in-law of Hippocrates (Univ. Exeter, 2025): Verfasserschaft, Datierung",
+        "Galen, Über die Mischungen (De temperamentis)",
+        "History of Science Museum Oxford, The microcosm: The four humours of Galenic medicine",
+        "Aristoteles, Tierkunde 3.3 (Zuschreibung an Polybos)"
+      ]
+    },
+    {
+      "id": "alltag",
+      "titel": "Alltag im Heiligtum",
+      "untertitel": "Priester, Tempeldiener, Ärzte und Kranke",
+      "abschnitte": [
+        {
+          "ueberschrift": "Priester auf Zeit",
+          "absaetze": [
+            "Ein Priester des Asklepios war kein Arzt und kein Mönch, sondern ein Bürger, der für eine bestimmte Zeit ein Amt übernahm. Er leitete die Opfer, sprach die Gebete, verwaltete die Weihgaben und das Geld des Heiligtums. Auf Kos wurden Priesterämter sogar verkauft. Die Summen und die Pflichten waren so hoch, dass fast nur wohlhabende Bürger sie übernehmen konnten. Ein solches Amt brachte Ansehen und Einkünfte, etwa Anteile am Opferfleisch.",
+            "Den Alltag bestritten Helfer: der Tempeldiener, der die Besucher empfing, die Gebühren beaufsichtigte und die Opfer vorbereitete, dazu Wasserträger, Wächter und Handwerker."
+          ]
+        },
+        {
+          "ueberschrift": "Ein Besuch, erzählt von einem Dichter",
+          "absaetze": [
+            "Den lebendigsten Einblick gibt ein kleines Theaterstück des Dichters Herodas aus dem 3. Jahrhundert v. Chr., das hier im Asklepieion von Kos spielt. Zwei Frauen kommen, um dem Gott einen Hahn zu opfern, als Dank für eine Heilung. Sie beten zu Asklepios und seiner Familie, legen einen Kuchen nieder und warten auf den Tempeldiener.",
+            "Während der Hahn geopfert wird, bestaunen sie die Kunstwerke, als wären sie im Museum: Statuen, die so lebendig wirken, dass man meint, sie könnten sprechen, ein Junge, der eine Gans würgt, und Gemälde des berühmten Malers Apelles. Zum Schluss erhält der Tempeldiener ein Stück vom Hahn; den Rest wollen die Frauen verzehren. Ob zu Hause oder in einem Speiseraum des Heiligtums, darüber wird in der Forschung diskutiert. Ein Hahn als Dankopfer war üblich; Sokrates soll mit den letzten Worten daran erinnert haben, dass man Asklepios noch einen Hahn schulde."
+          ]
+        },
+        {
+          "ueberschrift": "Leben der Kranken",
+          "absaetze": [
+            "Hinter den Säulenhallen der unteren und der oberen Terrasse lagen Räume für Pilger und Kranke. Hier wohnte man, manchmal wohl für Tage oder Wochen, schlief, aß und wartete auf Besserung oder auf den richtigen Traum. Das Wasser aus den Brunnen, die Bäder, Spaziergänge im Zypressenhain und die Mahlzeiten gehörten zum Tagesablauf. Wie das im Einzelnen geregelt war, ist für Kos nicht überliefert.",
+            "Wichtig ist eine Grenze, die viele Heiligtümer zogen: Ein heiliger Bezirk durfte nicht durch Geburt oder Tod verunreinigt werden. In Epidauros ließ ein reicher Römer im 2. Jahrhundert n. Chr. deshalb außerhalb des heiligen Bezirks ein Haus bauen, in dem Sterbende und Gebärende Aufnahme fanden. Schwerstkranke waren im Heiligtum also nicht unbedingt willkommen."
+          ]
+        },
+        {
+          "ueberschrift": "Feste",
+          "absaetze": [
+            "Seit 242 v. Chr. feierte Kos alle vier Jahre die Großen Asklepieia, nach antiker Zählung „im fünften Jahr“. Dann kamen Festgesandte aus vielen Städten, es gab Opfer, Prozessionen und Wettkämpfe in Musik und Sport. An solchen Tagen war das Heiligtum kein stiller Ort der Kranken, sondern ein Treffpunkt der griechischen Welt."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "P. Schievink, Asklepieion of Kos, UBC 2023 (Verkauf der Priesterämter, nach S. Sherwin-White, Ancient Cos, 1978)",
+        "Herodas, Mimiambos 4 (Die Frauen, die Asklepios opfern)",
+        "Platon, Phaidon 118a (Hahn für Asklepios)",
+        "Bosnakis / Skerlou, Ministeriumstext: Räume hinter den Hallen, Brunnen, Asklepieia",
+        "Pausanias 2.27.6 (Gebäude für Sterbende und Gebärende in Epidauros)",
+        "E. Interdonato, Bollettino di Archeologia online 2010 (Asklepieia 242/241 v. Chr.)"
+      ]
+    },
+    {
+      "id": "glaube-erfahrung",
+      "titel": "Zwischen Glaube und Erfahrung",
+      "untertitel": "Wie wissenschaftlich war die griechische Medizin?",
+      "abschnitte": [
+        {
+          "ueberschrift": "Zwei Wege, die sich nicht ausschlossen",
+          "absaetze": [
+            "Man stellt sich die Geschichte gern so vor: Erst gab es Tempelheilung mit Gebet und Wunder, dann kam Hippokrates und mit ihm die Wissenschaft. Die Wirklichkeit war vielschichtiger. Die großen Asklepios-Heiligtümer blühten gerade in der Zeit nach Hippokrates auf, und Ärzte und Heiligtum standen nicht gegeneinander.",
+            "Ärzte nannten sich Asklepiaden und schworen bei Apollon und Asklepios. Kranke gingen zum Arzt und ins Heiligtum, je nachdem, was Erfolg versprach. Der Arzt Galen, einer der größten Theoretiker der Antike, verehrte Asklepios und sah sich als dessen Diener."
+          ]
+        },
+        {
+          "ueberschrift": "Was an der hippokratischen Medizin neu war",
+          "absaetze": [
+            "Das Neue lag in der Art zu denken. Die hippokratischen Schriften suchen natürliche Ursachen: Luft, Wasser, Ernährung, Lebensweise. Die Schrift *Über die heilige Krankheit* erklärt, die Epilepsie sei nicht heiliger als andere Krankheiten; wer sie Göttern zuschreibe, verberge nur seine Ratlosigkeit.",
+            "Neu war auch das genaue Beobachten. In den *Epidemien* sind Krankheitsverläufe Tag für Tag notiert, mit Fieber, Ausscheidungen und Schlaf, und am Ende steht oft, dass der Kranke starb. Daraus wollten die Ärzte lernen, den Verlauf einer Krankheit vorherzusagen, die *Prognose*. Der Arzt sollte nicht allmächtig wirken, sondern verlässlich: „nützen oder wenigstens nicht schaden“, wie es in den *Epidemien* heißt."
+          ]
+        },
+        {
+          "ueberschrift": "Theorie und Erfahrung",
+          "absaetze": [
+            "Die griechische Medizin war keine Naturwissenschaft im heutigen Sinn. Es gab keine Versuche mit Vergleichsgruppen, und die Säftelehre beruhte auf Überlegungen, nicht auf Messungen. Aber sie verband Theorie mit Erfahrung: Annahmen über den Körper wurden am Krankenbett geprüft, Fälle wurden gesammelt, Erfolge und Misserfolge aufgeschrieben. Darin liegt ein Anfang dessen, was wir heute wissenschaftliche Medizin nennen.",
+            "Die Priester und Ärzte eines Heiligtums wie Kos bewegten sich in beiden Welten. Der Gott galt als die eigentliche Quelle der Heilung, das Wissen der Ärzte als seine Gabe. Der Begriff „Priesterarzt“ ist dabei eine moderne Vereinfachung: Priesteramt und Arztberuf waren in der Regel getrennt, aber eng miteinander verbunden."
+          ]
+        },
+        {
+          "ueberschrift": "Theurgie und Traum",
+          "absaetze": [
+            "Die religiöse Seite sollte man nicht kleinreden. Opfer, Reinigung, Gebet und Traumbotschaften waren für die Menschen der Antike reale Wege zur Heilung. In der Spätantike gab es sogar philosophische Strömungen, die mit Ritualen, der sogenannten Theurgie, unmittelbar auf die Götter einwirken wollten.",
+            "Ein Besuch im Asklepieion war deshalb immer beides: eine Hinwendung zum Gott und eine Kur mit Ruhe, Wasser, Diät und ärztlichem Rat. Gerade diese Verbindung macht den Ort bis heute so anziehend."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "Corpus Hippocraticum: Über die heilige Krankheit (Kap. 1); Epidemien I (Kap. 11: „nützen oder nicht schaden“); Prognostikon",
+        "Hippokratischer Eid",
+        "Galen, Über seine eigenen Bücher (Galen als Diener des Asklepios), nach E. und L. Edelstein, Asclepius. Collection and Interpretation of the Testimonies, 1945",
+        "Bosnakis / Skerlou, Ministeriumstext (Nebeneinander von Heilschlaf und Berufsärzten auf Kos)"
+      ]
+    },
+    {
+      "id": "krankenhaus",
+      "titel": "Das „größte Krankenhaus der Antike“?",
+      "untertitel": "Eine beliebte Bezeichnung, kritisch betrachtet",
+      "abschnitte": [
+        {
+          "ueberschrift": "Woher der Ausdruck kommt",
+          "absaetze": [
+            "In Reiseführern und auf Werbeseiten heißt das Asklepieion von Kos oft „das größte Krankenhaus der Antike“. Der Ausdruck ist eingängig, aber er führt in die Irre, und zwar in zweifacher Hinsicht."
+          ]
+        },
+        {
+          "ueberschrift": "Kein Krankenhaus",
+          "absaetze": [
+            "Ein Asklepieion war zuerst ein *Heiligtum*: ein Ort, an dem ein Gott wohnte, verehrt wurde und half. Es gab keine Stationen, keine fest angestellten Ärzte für alle Kranken und keine Pflege im heutigen Sinn. Wer kam, brachte Opfer, schlief im heiligen Bezirk, nutzte Wasser und Bäder und suchte, je nach Zeit, auch ärztlichen Rat.",
+            "Richtig ist: Hinter den Hallen gab es Räume für Pilger und Kranke, und das Wasser der Quellen spielte eine große Rolle. Insofern verband der Ort Kult und Kur. Schwerstkranke und Sterbende waren in heiligen Bezirken aber oft gerade nicht erwünscht, denn der Tod galt als Verunreinigung."
+          ]
+        },
+        {
+          "ueberschrift": "Nicht nachweislich das größte",
+          "absaetze": [
+            "Eine Rangliste der Heiligtümer nach Größe gibt es in den antiken Quellen nicht. Epidauros auf der Peloponnes war das Mutterheiligtum des Asklepios mit Theater, Stadion und großen Gästehäusern. Pergamon in Kleinasien war in der Kaiserzeit ebenso berühmt. Kos gehörte zu den bedeutendsten Asklepieia, aber es war nicht nachweislich das größte."
+          ]
+        },
+        {
+          "ueberschrift": "Die eigentlichen Vorläufer des Krankenhauses",
+          "absaetze": [
+            "Einrichtungen, die eher unserem Krankenhaus ähneln, entstanden an anderer Stelle: die Lazarette der römischen Legionslager, die *valetudinaria*, und in der Spätantike christliche Häuser für Kranke und Fremde. Ein berühmtes Beispiel gründete Bischof Basilius um 370 n. Chr. in Caesarea in Kappadokien.",
+            "Die schönere Wahrheit über Kos ist deshalb vielleicht diese: Hier verbanden sich Glaube, Kur und eine Medizin, die zu beobachten und zu begründen begann. Das macht den Ort bedeutend, auch ohne Superlativ."
+          ]
+        }
+      ],
+      "bild": null,
+      "quellen": [
+        "Bosnakis / Skerlou, Ministeriumstext (Räume für Pilger und Kranke, Quellen)",
+        "Pausanias 2.27 (Epidauros: Bauten, Haus für Sterbende und Gebärende)",
+        "E. und L. Edelstein, Asclepius. Collection and Interpretation of the Testimonies, 1945 (Charakter der Asklepieia)",
+        "Gregor von Nazianz, Rede 43 (Basileias in Caesarea)"
+      ]
+    }
+  ]
+}
