@@ -1,0 +1,62 @@
+{
+  "titel": "Das Asklepieion von Kos",
+  "planBreite": 600,
+  "planHoehe": 820,
+  "kontrollpunkte": [
+    { "lat": 36.875747, "lon": 27.257102, "x": 315.8, "y": 363.6 },
+    { "lat": 36.875321, "lon": 27.256728, "x": 306.1, "y": 222.1 },
+    { "lat": 36.8763617, "lon": 27.2576247, "x": 332.6, "y": 565.4 },
+    { "lat": 36.8760302, "lon": 27.2583418, "x": 154.4, "y": 593.6 }
+  ],
+  "rundgang": [],
+  "einfuehrung": [
+    {
+      "ueberschrift": "Worum es geht",
+      "absaetze": [
+        "Dieser Begleiter führt Sie durch das Heiligtum des Heilgottes Asklepios auf Kos, eine der bekanntesten Kultstätten der griechischen Welt. Die Anlage zieht sich über drei Terrassen einen Hang hinauf, mit Blick über die Stadt Kos und das Meer bis zur Küste Kleinasiens.",
+        "Zu jedem Ort gibt es einen kurzen Text zum Lesen oder Anhören, eine ausführlichere Vertiefung und, wo möglich, ein Foto des heutigen Zustands sowie eine schematische Rekonstruktion. Dazu kommen Themen, die an keinen bestimmten Ort gebunden sind: Hippokrates, der Heilschlaf, die Säftelehre, der Alltag der Kranken und Priester, die Kosten einer Heilung.",
+        "Für den ganzen Rundgang sollten Sie zwei bis drei Stunden einplanen. Sie müssen aber nichts vollständig abarbeiten."
+      ]
+    },
+    {
+      "ueberschrift": "Ihr eigener Weg",
+      "absaetze": [
+        "Jedes Handy funktioniert für sich. Niemand muss auf die anderen warten, und niemand sieht, wo die anderen gerade sind.",
+        "Über die Leiste am unteren Bildschirmrand erreichen Sie vier Bereiche. *Plan* zeigt die Anlage mit nummerierten Orten; ein Tipp auf eine Nummer öffnet den Ort. *Rundgang* schlägt eine Reihenfolge von unten nach oben vor, ein Angebot, keine Pflicht. *Themen* enthält Hintergründe, die Sie jederzeit lesen können, etwa auf einer Bank im Schatten. *Einführung* führt zu dieser Seite zurück.",
+        "Auf den Seiten der Orte schalten Sie über dem Bild zwischen *Heute* und *Rekonstruktion* um. Unter dem Kurztext öffnet *Mehr lesen* die Vertiefung. Die blauen Schildchen führen zu passenden Themen.",
+        "Was Sie gelesen oder angehört haben, wird mit einem Häkchen markiert. Diese Markierung bleibt nur auf Ihrem eigenen Gerät."
+      ]
+    },
+    {
+      "ueberschrift": "Vorlesen lassen",
+      "absaetze": [
+        "Jeder Text kann vorgelesen werden: Tippen Sie auf den runden Knopf mit dem Dreieck. Mit dem Pausenknopf halten Sie an, mit dem Pfeil rechts springen Sie zum nächsten Abschnitt. Während des Vorlesens bleibt der Bildschirm eingeschaltet, denn bei gesperrtem Bildschirm verstummt die Stimme auf vielen Handys.",
+        "Die Stimme ist die eingebaute Sprachausgabe Ihres Handys; sie klingt deshalb von Gerät zu Gerät etwas anders. Ohne Internet funktioniert sie nur, wenn die deutsche Stimme auf dem Gerät gespeichert ist.",
+        "Auf Android-Handys prüfen Sie das in den Einstellungen unter Sprache bzw. Bedienungshilfen, Punkt Sprachausgabe oder Text-in-Sprache: Dort sollte für Deutsch die Sprachdatei heruntergeladen sein. Die genauen Bezeichnungen unterscheiden sich je nach Hersteller.",
+        "Auf dem iPhone ist eine deutsche Stimme in der Regel vorhanden. Eine natürlicher klingende Stimme können Sie unter Einstellungen, Bedienungshilfen, Gesprochene Inhalte, Stimmen laden."
+      ]
+    },
+    {
+      "ueberschrift": "Einmal vorbereiten, dann offline",
+      "absaetze": [
+        "Öffnen Sie den Begleiter einmal im WLAN, zum Beispiel im Hotel, und warten Sie, bis oben rechts *Für offline bereit* erscheint. Dann sind alle Texte, Bilder und der Plan auf dem Handy gespeichert, und in der Anlage brauchen Sie kein Netz.",
+        "Auf dem iPhone legen Sie den Begleiter danach am besten auf den Home-Bildschirm: In Safari auf das Teilen-Symbol tippen und *Zum Home-Bildschirm* wählen. So bleibt der Speicher erhalten. Auf Android bietet Chrome im Menü mit den drei Punkten *Zum Startbildschirm hinzufügen* oder *App installieren* an."
+      ]
+    },
+    {
+      "ueberschrift": "Ihr Standort im Plan",
+      "absaetze": [
+        "Im Plan können Sie Ihren Standort anzeigen lassen. Das Handy fragt dann einmal um Erlaubnis. Der Punkt ist auf einige Meter genau; der blasse Kreis um ihn zeigt die Ungenauigkeit. Zur Orientierung reicht das gut, um benachbarte Mauern zu unterscheiden, eher nicht. Der Plan ist so gedreht, dass oben bergauf liegt, also Richtung des großen Tempels.",
+        "Wer den Standort nicht freigeben möchte, kann den Plan genauso benutzen."
+      ]
+    },
+    {
+      "ueberschrift": "Gut zu wissen",
+      "absaetze": [
+        "Laut Website des griechischen Kulturministeriums ist die Anlage im Sommerhalbjahr täglich von 8 bis 20 Uhr geöffnet; das Kombiticket für Asklepieion, Archäologisches Museum und Casa Romana kostet 15 Euro (Stand: 15. Oktober 2026). Ab November gelten wahrscheinlich kürzere Winterzeiten.",
+        "Es gibt viele Stufen und unebene Wege und auf der oberen Terrasse wenig Schatten. Wasser, Kopfbedeckung und feste Schuhe sind sinnvoll.",
+        "Alle historischen Angaben sind mit Quellen belegt; die Liste steht am Ende jeder Seite. Wo die Forschung unsicher ist oder streitet, sagen die Texte das ausdrücklich. Die Rekonstruktionen sind vereinfachte Zeichnungen und keine exakten Bauaufnahmen."
+      ]
+    }
+  ]
+}
