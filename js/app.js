@@ -1,6 +1,7 @@
 import { parseRoute } from "./router.js";
 import { loadContent } from "./content.js";
 import { createPlayer } from "./speech.js";
+import { createProgress } from "./progress.js";
 import { renderOrt, renderThema, renderRundgang, renderThemen, renderEinfuehrung } from "./render.js";
 
 const ansicht = document.getElementById("ansicht");
@@ -10,6 +11,8 @@ let inhalt = null;
 let ctx = null;
 let player = null;
 let aktiveBox = null;
+const fortschritt = createProgress();
+let beobachter = null;
 
 function knopf(zeichen, label, klasse, onclick) {
   const b = document.createElement("button");
@@ -47,6 +50,25 @@ function meldung(text) {
   return p;
 }
 
+// Wer bis zu den Quellen gescrollt hat, hat die Seite gesehen.
+function beobachteEnde(id) {
+  if (beobachter) removeEventListener("scroll", beobachter);
+  beobachter = null;
+  const ende = ansicht.querySelector(".quellen");
+  if (!id || !ende) return;
+  const pruefe = () => {
+    const r = ende.getBoundingClientRect();
+    if (ende.isConnected && r.top < innerHeight && r.bottom > 0) {
+      fortschritt.markSeen(id);
+      removeEventListener("scroll", pruefe);
+      if (beobachter === pruefe) beobachter = null;
+    }
+  };
+  beobachter = pruefe;
+  addEventListener("scroll", pruefe, { passive: true });
+  setTimeout(pruefe, 400);
+}
+
 function zeigen() {
   const route = parseRoute(location.hash);
   for (const a of document.querySelectorAll(".leiste a")) {
@@ -64,6 +86,7 @@ function zeigen() {
   else if (route.view === "plan") el = meldung("Plan folgt.");
   else el = renderEinfuehrung(inhalt.site, ctx);
   ansicht.replaceChildren(el);
+  beobachteEnde(route.id);
   scrollTo(0, 0);
 }
 
@@ -77,8 +100,8 @@ async function start() {
   player = createPlayer({ lexikon: inhalt.lexikon });
   ctx = {
     themenById: new Map(inhalt.themen.map(t => [t.id, t])),
-    isSeen: () => false,
-    onSpeak: sprechen,
+    isSeen: fortschritt.isSeen,
+    onSpeak: (abschnitte, box) => { const id = parseRoute(location.hash).id; sprechen(abschnitte, box, () => id && fortschritt.markSeen(id)); },
   };
   addEventListener("hashchange", () => { player.stop(); zeigen(); });
   zeigen();
