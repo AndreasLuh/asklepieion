@@ -48,9 +48,12 @@ function quellen(liste) {
 }
 
 function figur(bild, art) {
-  const nachweis = art === "rekonstruktion"
-    ? `Schematische Rekonstruktion, ${bild.basis}. ${bild.credit}`
-    : `${bild.alt}. Foto: ${bild.credit} · ${bild.lizenz}`;
+  const eigene = bild.lizenz === "eigene Zeichnung";
+  const nachweis = art !== "rekonstruktion"
+    ? `${bild.alt}. Foto: ${bild.credit} · ${bild.lizenz}`
+    : eigene
+      ? `Schematische Rekonstruktion, ${bild.basis}. ${bild.credit}`
+      : `Rekonstruktionsversuch: ${bild.credit}, ${bild.basis} · ${bild.lizenz}`;
   return h("figure", {},
     h("img", { src: bild.src, alt: bild.alt, loading: "lazy", decoding: "async" }),
     h("figcaption", {}, nachweis, bild.link ? [" · ", h("a", { href: bild.link, target: "_blank", rel: "noopener" }, "Quelle")] : null));

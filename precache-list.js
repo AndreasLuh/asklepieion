@@ -1,10 +1,33 @@
 // Erzeugt mit tools/precache.ps1 – nicht von Hand ändern.
 self.PRECACHE = [
   "./",
+  "content/lexikon.json",
+  "content/orte.json",
+  "content/site.json",
+  "content/themen.json",
   "css/app.css",
+  "fonts/inter-latin.woff2",
+  "fonts/source-serif-4-italic-latin.woff2",
+  "fonts/source-serif-4-latin.woff2",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "icons/icon-512.png",
+  "img/fotos/altar.jpg",
+  "img/fotos/apollon-tempel.jpg",
+  "img/fotos/brunnenwand.jpg",
+  "img/fotos/dorischer-tempel.jpg",
+  "img/fotos/exedra.jpg",
+  "img/fotos/grosse-treppe.jpg",
+  "img/fotos/hain.jpg",
+  "img/fotos/ionischer-tempel.jpg",
+  "img/fotos/obere-hallen.jpg",
+  "img/fotos/rekonstruktion-devedjian.jpg",
+  "img/fotos/untere-terrasse.jpg",
+  "img/plan.svg",
+  "img/rekonstruktionen/gesamtansicht.svg",
+  "img/rekonstruktionen/mittlere-terrasse.svg",
+  "img/rekonstruktionen/obere-terrasse.svg",
+  "img/rekonstruktionen/untere-terrasse.svg",
   "index.html",
   "js/app.js",
   "js/content.js",
@@ -18,4 +41,4 @@ self.PRECACHE = [
   "js/speech.js",
   "manifest.webmanifest"
 ];
-self.CACHE_VERSION = "7660d2c72f03";
+self.CACHE_VERSION = "693abe2b05ac";
