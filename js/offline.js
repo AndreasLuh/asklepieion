@@ -43,7 +43,7 @@ export async function startOffline(anzeigen) {
   const lokal = ["localhost", "127.0.0.1"].includes(location.hostname) && !new URLSearchParams(location.search).has("sw");
   if (!("serviceWorker" in navigator) || lokal) { zeige(lokal ? "" : "Offline-Speicherung wird von diesem Browser nicht unterstützt"); return; }
   try {
-    await navigator.serviceWorker.register("sw.js");
+    await navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
     await navigator.serviceWorker.ready;
     const { PRECACHE, CACHE_VERSION } = await ladeListe().catch(() => ({}));
     if (!PRECACHE) return;

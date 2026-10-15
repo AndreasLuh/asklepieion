@@ -1,9 +1,13 @@
+// Version c1edf42c638f
 // Service Worker: speichert alle Dateien und liefert sie offline aus.
 importScripts("precache-list.js");
 const NAME = `asklepieion-${self.CACHE_VERSION}`;
 
 self.addEventListener("install", event => {
-  event.waitUntil(caches.open(NAME).then(c => c.addAll(self.PRECACHE)).then(() => self.skipWaiting()));
+  // cache: "reload" umgeht den HTTP-Cache, damit keine veralteten Dateien unter der neuen Version landen
+  event.waitUntil(caches.open(NAME)
+    .then(c => c.addAll(self.PRECACHE.map(u => new Request(u, { cache: "reload" }))))
+    .then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", event => {
