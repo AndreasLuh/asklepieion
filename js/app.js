@@ -105,8 +105,24 @@ async function start() {
     ansicht.replaceChildren(meldung("Inhalte konnten nicht geladen werden: " + e.message));
     return;
   }
-  player = createPlayer({ lexikon: inhalt.lexikon, audio: inhalt.audio || {} });
+  // Stimmen zum Umschalten; die Wahl bleibt auf dem Gerät gespeichert
+  const stimmen = [
+    { id: "onyx", name: "Onyx", audio: inhalt.audio || {} },
+    { id: "andreas", name: "Andreas", audio: inhalt.audioAndreas || {} },
+  ].filter(s => Object.keys(s.audio).length > 0);
+  let stimme = stimmen.find(s => s.id === leseStimme()) || stimmen[0];
+  player = createPlayer({ lexikon: inhalt.lexikon, audio: stimme?.audio || {} });
   ctx = {
+    stimme: {
+      mehrere: stimmen.length > 1,
+      name: () => stimme.name,
+      wechsle: () => {
+        stimme = stimmen[(stimmen.indexOf(stimme) + 1) % stimmen.length];
+        player.stop();
+        player.setAudio(stimme.audio);
+        try { speicher()?.setItem(STIMME_KEY, stimme.id); } catch { /* ohne Speicher gilt die Wahl bis zum Neuladen */ }
+      },
+    },
     themenById: new Map(inhalt.themen.map(t => [t.id, t])),
     isSeen: fortschritt.isSeen,
     onSpeak: (abschnitte, box, schluessel) => {
@@ -120,6 +136,11 @@ async function start() {
 
 function speicher() {
   try { return localStorage; } catch { return undefined; }
+}
+
+const STIMME_KEY = "asklepieion-stimme";
+function leseStimme() {
+  try { return speicher()?.getItem(STIMME_KEY); } catch { return null; }
 }
 
 function sperrbildschirm() {

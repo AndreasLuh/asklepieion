@@ -40,6 +40,18 @@ function audio(liste, ctx, beschriftung, schluessel) {
   const play = h("button", { class: "play", type: "button", "aria-label": beschriftung + " anhören" }, "▶");
   play.addEventListener("click", () => ctx.onSpeak(liste, box, schluessel));
   box.append(play, h("span", { class: "audio-info" }, beschriftung + " anhören"));
+  // Umschalter zwischen den Stimmen (nur wenn es mehr als eine gibt)
+  if (ctx.stimme?.mehrere) {
+    const knopf = h("button", { class: "stimme", type: "button" });
+    const beschrifte = k => {
+      k.textContent = "Stimme: " + ctx.stimme.name();
+      k.setAttribute("aria-label", `Stimme: ${ctx.stimme.name()} – tippen zum Wechseln`);
+    };
+    // Alle Umschalter der Seite zeigen dieselbe Stimme
+    knopf.addEventListener("click", () => { ctx.stimme.wechsle(); document.querySelectorAll("button.stimme").forEach(beschrifte); });
+    beschrifte(knopf);
+    box.append(knopf);
+  }
   return box;
 }
 

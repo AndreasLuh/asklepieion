@@ -9,11 +9,13 @@ export async function loadContent(base = "content/") {
   };
   // Eine einzelne .json-Datei enthält alles (für Tests und Vorschau)
   if (base.endsWith(".json")) return hole("");
-  const [site, orte, themen, lexikon, audio] = await Promise.all([
+  const [site, orte, themen, lexikon, audio, audioAndreas] = await Promise.all([
     ...["site.json", "orte.json", "themen.json", "lexikon.json"].map(hole),
     hole("audio.json").catch(() => ({ abschnitte: {} })),  // Aufnahmen sind freiwillig
+    hole("audio-andreas.json").catch(() => ({ abschnitte: {} })),  // zweite Stimme (ElevenLabs), umschaltbar
   ]);
-  return { site, orte: orte.orte, themen: themen.themen, lexikon, audio: audio.abschnitte || {} };
+  return { site, orte: orte.orte, themen: themen.themen, lexikon,
+    audio: audio.abschnitte || {}, audioAndreas: audioAndreas.abschnitte || {} };
 }
 
 // Alle vorlesbaren Abschnitte mit ihrem Schlüssel für die Aufnahmen.

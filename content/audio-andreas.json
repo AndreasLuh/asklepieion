@@ -1,0 +1,358 @@
+{
+  "stimme": "Andreas Luh (ElevenLabs)",
+  "modell": "eleven_v4",
+  "abschnitte": {
+    "einfuehrung-1": {
+      "datei": "audio-andreas/einfuehrung-1.mp3",
+      "hash": "944dbb30a24da961",
+      "regie": "874748a47a751387"
+    },
+    "einfuehrung-2": {
+      "datei": "audio-andreas/einfuehrung-2.mp3",
+      "hash": "7da63fd1b48f57a3"
+    },
+    "einfuehrung-3": {
+      "datei": "audio-andreas/einfuehrung-3.mp3",
+      "hash": "2ec4cf45d8eeaa89"
+    },
+    "einfuehrung-4": {
+      "datei": "audio-andreas/einfuehrung-4.mp3",
+      "hash": "65ccc2fe70f19fd5"
+    },
+    "einfuehrung-5": {
+      "datei": "audio-andreas/einfuehrung-5.mp3",
+      "hash": "79033fd7428b6b98"
+    },
+    "einfuehrung-6": {
+      "datei": "audio-andreas/einfuehrung-6.mp3",
+      "hash": "58db63833588e09b",
+      "regie": "4ea6d94827d42d5d"
+    },
+    "ort-hain-kurz-1": {
+      "datei": "audio-andreas/ort-hain-kurz-1.mp3",
+      "hash": "011028a70c3bf685",
+      "regie": "464d42607018fab5"
+    },
+    "ort-hain-mehr-1": {
+      "datei": "audio-andreas/ort-hain-mehr-1.mp3",
+      "hash": "3e79f4c64a2e636b"
+    },
+    "ort-hain-mehr-2": {
+      "datei": "audio-andreas/ort-hain-mehr-2.mp3",
+      "hash": "c09585f85ede5ab5",
+      "regie": "2669700f036ba573"
+    },
+    "ort-propylon-kurz-1": {
+      "datei": "audio-andreas/ort-propylon-kurz-1.mp3",
+      "hash": "a4358f813a7de6f7",
+      "regie": "3b6ce062bec05228"
+    },
+    "ort-propylon-mehr-1": {
+      "datei": "audio-andreas/ort-propylon-mehr-1.mp3",
+      "hash": "c272a46ed12531a0"
+    },
+    "ort-untere-terrasse-kurz-1": {
+      "datei": "audio-andreas/ort-untere-terrasse-kurz-1.mp3",
+      "hash": "e4fd3ff802978d09",
+      "regie": "c76b47afa6c09f9d"
+    },
+    "ort-untere-terrasse-mehr-1": {
+      "datei": "audio-andreas/ort-untere-terrasse-mehr-1.mp3",
+      "hash": "46b8b053720a8a67"
+    },
+    "ort-untere-terrasse-mehr-2": {
+      "datei": "audio-andreas/ort-untere-terrasse-mehr-2.mp3",
+      "hash": "e9b2ce71915454b3",
+      "regie": "4814b97a05d74520"
+    },
+    "ort-brunnenwand-kurz-1": {
+      "datei": "audio-andreas/ort-brunnenwand-kurz-1.mp3",
+      "hash": "e4b79851c1edbd6a"
+    },
+    "ort-brunnenwand-mehr-1": {
+      "datei": "audio-andreas/ort-brunnenwand-mehr-1.mp3",
+      "hash": "f738fbdfa19f31f1",
+      "regie": "787b6046a4b4fc23"
+    },
+    "ort-latrinen-kurz-1": {
+      "datei": "audio-andreas/ort-latrinen-kurz-1.mp3",
+      "hash": "fa1ae4795ceddb85",
+      "regie": "4693debde0e684de"
+    },
+    "ort-latrinen-mehr-1": {
+      "datei": "audio-andreas/ort-latrinen-mehr-1.mp3",
+      "hash": "2e1fcbaa64781e72"
+    },
+    "ort-thermen-kurz-1": {
+      "datei": "audio-andreas/ort-thermen-kurz-1.mp3",
+      "hash": "b1dd08cd5e586123"
+    },
+    "ort-thermen-mehr-1": {
+      "datei": "audio-andreas/ort-thermen-mehr-1.mp3",
+      "hash": "5e52c2502c9afdf5"
+    },
+    "ort-altar-kurz-1": {
+      "datei": "audio-andreas/ort-altar-kurz-1.mp3",
+      "hash": "cb590cbdd539cd6e",
+      "regie": "ff91765ed1905b92"
+    },
+    "ort-altar-mehr-1": {
+      "datei": "audio-andreas/ort-altar-mehr-1.mp3",
+      "hash": "36b3c187d9dcb679"
+    },
+    "ort-altar-mehr-2": {
+      "datei": "audio-andreas/ort-altar-mehr-2.mp3",
+      "hash": "986d83d94b45c020",
+      "regie": "7c563c4a7d81edb5"
+    },
+    "ort-ionischer-tempel-kurz-1": {
+      "datei": "audio-andreas/ort-ionischer-tempel-kurz-1.mp3",
+      "hash": "f528ba564c1c15c2"
+    },
+    "ort-ionischer-tempel-mehr-1": {
+      "datei": "audio-andreas/ort-ionischer-tempel-mehr-1.mp3",
+      "hash": "4d6a5082db96064d",
+      "regie": "e38ee685803362a3"
+    },
+    "ort-abaton-kurz-1": {
+      "datei": "audio-andreas/ort-abaton-kurz-1.mp3",
+      "hash": "c5ab3c235be811f0",
+      "regie": "0dab071c75df592d"
+    },
+    "ort-abaton-mehr-1": {
+      "datei": "audio-andreas/ort-abaton-mehr-1.mp3",
+      "hash": "06106a3e3000fe58",
+      "regie": "c58c6098399f52c9"
+    },
+    "ort-xenophon-tempel-kurz-1": {
+      "datei": "audio-andreas/ort-xenophon-tempel-kurz-1.mp3",
+      "hash": "efe2ca5413ce41b3",
+      "regie": "5a6be7ac33194a53"
+    },
+    "ort-xenophon-tempel-mehr-1": {
+      "datei": "audio-andreas/ort-xenophon-tempel-mehr-1.mp3",
+      "hash": "4b26f551e72b01db"
+    },
+    "ort-exedra-kurz-1": {
+      "datei": "audio-andreas/ort-exedra-kurz-1.mp3",
+      "hash": "5f983885f598b6fd"
+    },
+    "ort-exedra-mehr-1": {
+      "datei": "audio-andreas/ort-exedra-mehr-1.mp3",
+      "hash": "caba4ae5153dde9d",
+      "regie": "e7f5f6abc662ddeb"
+    },
+    "ort-apollon-tempel-kurz-1": {
+      "datei": "audio-andreas/ort-apollon-tempel-kurz-1.mp3",
+      "hash": "9b4cabc89b227b96"
+    },
+    "ort-apollon-tempel-mehr-1": {
+      "datei": "audio-andreas/ort-apollon-tempel-mehr-1.mp3",
+      "hash": "8886ca9f856ce0eb"
+    },
+    "ort-grosse-treppe-kurz-1": {
+      "datei": "audio-andreas/ort-grosse-treppe-kurz-1.mp3",
+      "hash": "a330c9ce9a398407",
+      "regie": "924141c6726bb755"
+    },
+    "ort-grosse-treppe-mehr-1": {
+      "datei": "audio-andreas/ort-grosse-treppe-mehr-1.mp3",
+      "hash": "2d76f0204c72e248"
+    },
+    "ort-dorischer-tempel-kurz-1": {
+      "datei": "audio-andreas/ort-dorischer-tempel-kurz-1.mp3",
+      "hash": "abead6970c42fb11",
+      "regie": "0e02059b191a2732"
+    },
+    "ort-dorischer-tempel-mehr-1": {
+      "datei": "audio-andreas/ort-dorischer-tempel-mehr-1.mp3",
+      "hash": "ee5bf8a4501680a6",
+      "regie": "5d8d85721687d411"
+    },
+    "ort-dorischer-tempel-mehr-2": {
+      "datei": "audio-andreas/ort-dorischer-tempel-mehr-2.mp3",
+      "hash": "6c60024edf2a8315"
+    },
+    "ort-obere-hallen-kurz-1": {
+      "datei": "audio-andreas/ort-obere-hallen-kurz-1.mp3",
+      "hash": "8e6d870a8b1720a7",
+      "regie": "5568041f55af0baf"
+    },
+    "ort-obere-hallen-mehr-1": {
+      "datei": "audio-andreas/ort-obere-hallen-mehr-1.mp3",
+      "hash": "5cb06cacb3d3ad95",
+      "regie": "e392237e406ec65e"
+    },
+    "thema-asklepios-1": {
+      "datei": "audio-andreas/thema-asklepios-1.mp3",
+      "hash": "fbeff868f1efce88",
+      "regie": "a82a3efb78656a73"
+    },
+    "thema-asklepios-2": {
+      "datei": "audio-andreas/thema-asklepios-2.mp3",
+      "hash": "2c0a7075d03f01fb",
+      "regie": "87f626cc52fcbb65"
+    },
+    "thema-asklepios-3": {
+      "datei": "audio-andreas/thema-asklepios-3.mp3",
+      "hash": "148de7cd91804a53"
+    },
+    "thema-asklepios-4": {
+      "datei": "audio-andreas/thema-asklepios-4.mp3",
+      "hash": "202296feb33e6f66"
+    },
+    "thema-hippokrates-1": {
+      "datei": "audio-andreas/thema-hippokrates-1.mp3",
+      "hash": "249d4be2ff2b1535"
+    },
+    "thema-hippokrates-2": {
+      "datei": "audio-andreas/thema-hippokrates-2.mp3",
+      "hash": "69a2c7e3446a7265",
+      "regie": "6afd4e0f6bdc11a0"
+    },
+    "thema-hippokrates-3": {
+      "datei": "audio-andreas/thema-hippokrates-3.mp3",
+      "hash": "ce0f12954e6d8f7f"
+    },
+    "thema-hippokrates-4": {
+      "datei": "audio-andreas/thema-hippokrates-4.mp3",
+      "hash": "8a13df9f612ced37",
+      "regie": "c886d0b038fe28dc"
+    },
+    "thema-kos-geschichte-1": {
+      "datei": "audio-andreas/thema-kos-geschichte-1.mp3",
+      "hash": "b77b94ad1c8be9d2"
+    },
+    "thema-kos-geschichte-2": {
+      "datei": "audio-andreas/thema-kos-geschichte-2.mp3",
+      "hash": "841617da30f4f2f4"
+    },
+    "thema-kos-geschichte-3": {
+      "datei": "audio-andreas/thema-kos-geschichte-3.mp3",
+      "hash": "d3c9e1f4bea41329"
+    },
+    "thema-kos-geschichte-4": {
+      "datei": "audio-andreas/thema-kos-geschichte-4.mp3",
+      "hash": "ddbca4c246744625"
+    },
+    "thema-kos-geschichte-5": {
+      "datei": "audio-andreas/thema-kos-geschichte-5.mp3",
+      "hash": "943dcbbe4359207d"
+    },
+    "thema-heilsuchende-1": {
+      "datei": "audio-andreas/thema-heilsuchende-1.mp3",
+      "hash": "f68bc61fd2e60f79"
+    },
+    "thema-heilsuchende-2": {
+      "datei": "audio-andreas/thema-heilsuchende-2.mp3",
+      "hash": "3597cfd819b0f7e8",
+      "regie": "3d69023b6ccb3ff8"
+    },
+    "thema-heilsuchende-3": {
+      "datei": "audio-andreas/thema-heilsuchende-3.mp3",
+      "hash": "36bf94ddcf101d11"
+    },
+    "thema-heilsuchende-4": {
+      "datei": "audio-andreas/thema-heilsuchende-4.mp3",
+      "hash": "c479850fc9be30f4",
+      "regie": "348844330cb23e0f"
+    },
+    "thema-heilschlaf-1": {
+      "datei": "audio-andreas/thema-heilschlaf-1.mp3",
+      "hash": "21a22b441f2587c3",
+      "regie": "b453a5e3b34a1c1f"
+    },
+    "thema-heilschlaf-2": {
+      "datei": "audio-andreas/thema-heilschlaf-2.mp3",
+      "hash": "3e99b39a2879d4ee"
+    },
+    "thema-heilschlaf-3": {
+      "datei": "audio-andreas/thema-heilschlaf-3.mp3",
+      "hash": "09c4a0792cb094cf"
+    },
+    "thema-heilschlaf-4": {
+      "datei": "audio-andreas/thema-heilschlaf-4.mp3",
+      "hash": "54874a3d688a02d4",
+      "regie": "05476fb86cffc01e"
+    },
+    "thema-heilschlaf-5": {
+      "datei": "audio-andreas/thema-heilschlaf-5.mp3",
+      "hash": "3c644f973e1e48b1",
+      "regie": "ece2843a0588b619"
+    },
+    "thema-saeftelehre-1": {
+      "datei": "audio-andreas/thema-saeftelehre-1.mp3",
+      "hash": "323e49c5f586539d"
+    },
+    "thema-saeftelehre-2": {
+      "datei": "audio-andreas/thema-saeftelehre-2.mp3",
+      "hash": "afeeae48435fb07a",
+      "regie": "97bea6e98be5aae7"
+    },
+    "thema-saeftelehre-3": {
+      "datei": "audio-andreas/thema-saeftelehre-3.mp3",
+      "hash": "e8e4c5354cb2a929"
+    },
+    "thema-saeftelehre-4": {
+      "datei": "audio-andreas/thema-saeftelehre-4.mp3",
+      "hash": "872d87e800030ac5",
+      "regie": "d232b97bdf58f428"
+    },
+    "thema-alltag-1": {
+      "datei": "audio-andreas/thema-alltag-1.mp3",
+      "hash": "62a4583808f8d809",
+      "regie": "b3419aa9ff9eeab5"
+    },
+    "thema-alltag-2": {
+      "datei": "audio-andreas/thema-alltag-2.mp3",
+      "hash": "b2d599819c52a5a5",
+      "regie": "06de5d8ff1ed9eb1"
+    },
+    "thema-alltag-3": {
+      "datei": "audio-andreas/thema-alltag-3.mp3",
+      "hash": "3e586fc389f9dd96",
+      "regie": "eda629d96f219ea9"
+    },
+    "thema-alltag-4": {
+      "datei": "audio-andreas/thema-alltag-4.mp3",
+      "hash": "7b82740f92a970ca",
+      "regie": "206918c7ac5936c0"
+    },
+    "thema-glaube-erfahrung-1": {
+      "datei": "audio-andreas/thema-glaube-erfahrung-1.mp3",
+      "hash": "8d49fafb42b761be",
+      "regie": "411675d7ca4979f5"
+    },
+    "thema-glaube-erfahrung-2": {
+      "datei": "audio-andreas/thema-glaube-erfahrung-2.mp3",
+      "hash": "6399dc21ffae8980"
+    },
+    "thema-glaube-erfahrung-3": {
+      "datei": "audio-andreas/thema-glaube-erfahrung-3.mp3",
+      "hash": "85c7bf856fd8ed9f"
+    },
+    "thema-glaube-erfahrung-4": {
+      "datei": "audio-andreas/thema-glaube-erfahrung-4.mp3",
+      "hash": "bcc1d1487fa313fd",
+      "regie": "72faace3c8fe7348"
+    },
+    "thema-krankenhaus-1": {
+      "datei": "audio-andreas/thema-krankenhaus-1.mp3",
+      "hash": "fa240934d4ca0374",
+      "regie": "f6597536543cc1c3"
+    },
+    "thema-krankenhaus-2": {
+      "datei": "audio-andreas/thema-krankenhaus-2.mp3",
+      "hash": "9b377e80abadfe54"
+    },
+    "thema-krankenhaus-3": {
+      "datei": "audio-andreas/thema-krankenhaus-3.mp3",
+      "hash": "ceb06e8ffb026d50"
+    },
+    "thema-krankenhaus-4": {
+      "datei": "audio-andreas/thema-krankenhaus-4.mp3",
+      "hash": "d431644b4c42fb39",
+      "regie": "580c2bb43a62767e"
+    }
+  }
+}

@@ -167,5 +167,7 @@ export function createPlayer({ lexikon = {}, audio = {}, synth = globalThis.spee
       if (status === "spielt") sprich(); else setze("pause");
     },
     stop() { anhalten(); if (status !== "stopp") setze("stopp"); wachHalten(false); },
+    // Anderes Verzeichnis der Aufnahmen (andere Stimme); gilt ab dem nächsten play()
+    setAudio(neu) { audio = neu || {}; },
   };
 }

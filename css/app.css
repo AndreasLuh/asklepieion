@@ -85,6 +85,7 @@ h1 { font-size: 26px; line-height: 1.15; margin: 0 0 6px; font-weight: 600; }
 .audio button { border: 0; border-radius: 50%; width: 40px; height: 40px; flex-shrink: 0; background: var(--blau); color: #fff; font-size: 15px; }
 .audio button.weiter { background: transparent; color: var(--blau); font-size: 18px; }
 .audio-info { font-size: 14px; color: var(--text-2); flex: 1; }
+.audio button.stimme { width: auto; height: 32px; border-radius: 16px; padding: 0 12px; background: #fff; color: var(--blau); border: 1px solid var(--blau); font-size: 13px; white-space: nowrap; }
 
 /* Vertiefung, Themen-Schildchen, Quellen */
 details.mehr { border-top: 1px solid var(--linie); margin-top: 8px; padding-top: 4px; }
