@@ -47,7 +47,7 @@
       "ueberschrift": "Vorlesen lassen",
       "absaetze": [
         "Jeder Text kann vorgelesen werden: Tippen Sie auf den runden Knopf mit dem Dreieck. Mit dem Pausenknopf halten Sie an, mit dem Pfeil rechts springen Sie zum nächsten Abschnitt. Während des Vorlesens bleibt der Bildschirm eingeschaltet, denn bei gesperrtem Bildschirm verstummt die Stimme auf vielen Handys.",
-        "Die Texte sind mit einer künstlich erzeugten Stimme aufgenommen, der KI-Stimme Onyx von OpenAI. Die Aufnahmen werden mit dem Begleiter gespeichert und funktionieren deshalb auch ohne Internet.",
+        "Die Texte liest die Stimme von Andreas Luh. Sie ist mit künstlicher Intelligenz (ElevenLabs) aus Aufnahmen seiner Stimme erzeugt. Die Aufnahmen werden mit dem Begleiter gespeichert und funktionieren deshalb auch ohne Internet.",
         "Fehlt eine Aufnahme, liest ersatzweise die eingebaute Sprachausgabe Ihres Handys vor. Ohne Internet braucht sie eine gespeicherte deutsche Stimme: auf Android in den Einstellungen unter Sprache bzw. Bedienungshilfen, Punkt Sprachausgabe; auf dem iPhone unter Einstellungen, Bedienungshilfen, Gesprochene Inhalte, Stimmen."
       ]
     },
