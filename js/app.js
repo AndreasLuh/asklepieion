@@ -31,7 +31,7 @@ function knopf(zeichen, label, klasse, onclick) {
 }
 
 // Steuert die Audioleiste (box) für die übergebenen Abschnitte.
-function sprechen(abschnitte, box, beiEnde) {
+function sprechen(abschnitte, box, beiEnde, schluessel) {
   if (aktiveBox && aktiveBox !== box) aktiveBox.zuruecksetzen?.();
   aktiveBox = box;
   const ursprung = [...box.childNodes];
@@ -41,14 +41,14 @@ function sprechen(abschnitte, box, beiEnde) {
   const weiter = knopf("⏭", "Nächster Abschnitt", "weiter", () => player.next());
   box.zuruecksetzen = () => { box.replaceChildren(...ursprung); box.zuruecksetzen = null; };
   box.replaceChildren(pp, info, weiter);
-  player.play(abschnitte, ({ status, abschnitt, gesamt }) => {
+  player.play(abschnitte, ({ status, abschnitt, gesamt, ki }) => {
     if (status === "keine-stimme") { info.textContent = "Keine deutsche Vorlesestimme gefunden – siehe Einführung"; return; }
     if (status === "stopp") { box.zuruecksetzen?.(); return; }
     if (status === "ende") { box.zuruecksetzen?.(); beiEnde?.(); return; }
     pp.textContent = status === "spielt" ? "❚❚" : "▶";
     pp.setAttribute("aria-label", status === "spielt" ? "Pause" : "Weiter abspielen");
-    info.textContent = `Abschnitt ${abschnitt}/${gesamt}`;
-  });
+    info.textContent = `Abschnitt ${abschnitt}/${gesamt}` + (ki ? " · KI-Stimme" : "");
+  }, schluessel);
 }
 
 function meldung(text) {
@@ -105,11 +105,14 @@ async function start() {
     ansicht.replaceChildren(meldung("Inhalte konnten nicht geladen werden: " + e.message));
     return;
   }
-  player = createPlayer({ lexikon: inhalt.lexikon });
+  player = createPlayer({ lexikon: inhalt.lexikon, audio: inhalt.audio || {} });
   ctx = {
     themenById: new Map(inhalt.themen.map(t => [t.id, t])),
     isSeen: fortschritt.isSeen,
-    onSpeak: (abschnitte, box) => { const id = parseRoute(location.hash).id; sprechen(abschnitte, box, () => id && fortschritt.markSeen(id)); },
+    onSpeak: (abschnitte, box, schluessel) => {
+      const id = parseRoute(location.hash).id;
+      sprechen(abschnitte, box, () => id && fortschritt.markSeen(id), schluessel);
+    },
   };
   addEventListener("hashchange", () => { player.stop(); stopStandort(); zeigen(); });
   zeigen();

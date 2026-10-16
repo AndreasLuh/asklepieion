@@ -47,16 +47,15 @@
       "ueberschrift": "Vorlesen lassen",
       "absaetze": [
         "Jeder Text kann vorgelesen werden: Tippen Sie auf den runden Knopf mit dem Dreieck. Mit dem Pausenknopf halten Sie an, mit dem Pfeil rechts springen Sie zum nächsten Abschnitt. Während des Vorlesens bleibt der Bildschirm eingeschaltet, denn bei gesperrtem Bildschirm verstummt die Stimme auf vielen Handys.",
-        "Die Stimme ist die eingebaute Sprachausgabe Ihres Handys; sie klingt deshalb von Gerät zu Gerät etwas anders. Ohne Internet funktioniert sie nur, wenn die deutsche Stimme auf dem Gerät gespeichert ist.",
-        "Auf Android-Handys prüfen Sie das in den Einstellungen unter Sprache bzw. Bedienungshilfen, Punkt Sprachausgabe oder Text-in-Sprache: Dort sollte für Deutsch die Sprachdatei heruntergeladen sein. Die genauen Bezeichnungen unterscheiden sich je nach Hersteller.",
-        "Auf dem iPhone ist eine deutsche Stimme in der Regel vorhanden. Eine natürlicher klingende Stimme können Sie unter Einstellungen, Bedienungshilfen, Gesprochene Inhalte, Stimmen laden."
+        "Die Texte sind mit einer künstlich erzeugten Stimme aufgenommen, der KI-Stimme Onyx von OpenAI. Die Aufnahmen werden mit dem Begleiter gespeichert und funktionieren deshalb auch ohne Internet.",
+        "Fehlt eine Aufnahme, liest ersatzweise die eingebaute Sprachausgabe Ihres Handys vor. Ohne Internet braucht sie eine gespeicherte deutsche Stimme: auf Android in den Einstellungen unter Sprache bzw. Bedienungshilfen, Punkt Sprachausgabe; auf dem iPhone unter Einstellungen, Bedienungshilfen, Gesprochene Inhalte, Stimmen."
       ]
     },
     {
       "ueberschrift": "Einmal vorbereiten, dann offline",
       "absaetze": [
         "Bereiten Sie den Begleiter einmal im WLAN vor, zum Beispiel im Hotel. Legen Sie ihn *zuerst* auf den Startbildschirm Ihres Handys: auf dem iPhone in Safari das Teilen-Symbol tippen und *Zum Home-Bildschirm* wählen, auf Android in Chrome im Menü mit den drei Punkten *Zum Startbildschirm hinzufügen* oder *App installieren*.",
-        "Öffnen Sie den Begleiter danach über das neue Symbol, geben Sie dort das Passwort ein und warten Sie, bis oben rechts *Für offline bereit* erscheint. Das Symbol hat auf manchen Handys einen eigenen Speicher; deshalb gehört die Vorbereitung dorthin. Dann sind alle Texte, Bilder und der Plan gespeichert, und in der Anlage brauchen Sie kein Netz."
+        "Öffnen Sie den Begleiter danach über das neue Symbol, geben Sie dort das Passwort ein und warten Sie, bis oben rechts *Für offline bereit* erscheint. Das Symbol hat auf manchen Handys einen eigenen Speicher; deshalb gehört die Vorbereitung dorthin. Dann sind alle Texte, Bilder, Aufnahmen und der Plan gespeichert, und in der Anlage brauchen Sie kein Netz. Wegen der Aufnahmen sind das rund 60 MB; im WLAN dauert das einige Minuten."
       ]
     },
     {

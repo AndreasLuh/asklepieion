@@ -34,10 +34,11 @@ function abschnitte(liste) {
   ]));
 }
 
-function audio(liste, ctx, beschriftung) {
+// schluessel: Name der Aufnahmen (siehe audioAbschnitte in content.js)
+function audio(liste, ctx, beschriftung, schluessel) {
   const box = h("div", { class: "audio" });
   const play = h("button", { class: "play", type: "button", "aria-label": beschriftung + " anhören" }, "▶");
-  play.addEventListener("click", () => ctx.onSpeak(liste, box));
+  play.addEventListener("click", () => ctx.onSpeak(liste, box, schluessel));
   box.append(play, h("span", { class: "audio-info" }, beschriftung + " anhören"));
   return box;
 }
@@ -91,7 +92,7 @@ export function renderOrt(ort, ctx) {
     .map(t => h("a", { class: "chip", href: `#/thema/${t.id}` }, t.titel));
   const mehr = ort.mehr && ort.mehr.length
     ? h("details", { class: "mehr" }, h("summary", {}, "Mehr lesen"),
-        audio(ort.mehr, ctx, "Vertiefung"), abschnitte(ort.mehr))
+        audio(ort.mehr, ctx, "Vertiefung", `ort-${ort.id}-mehr`), abschnitte(ort.mehr))
     : null;
   return h("article", { class: "seite ort", "data-id": ort.id },
     bildflaeche(ort.bilder),
@@ -100,7 +101,7 @@ export function renderOrt(ort, ctx) {
       h("h1", {}, ort.titel),
       h("p", { class: "untertitel" }, ort.untertitel),
       gesehenMarke(ort.id, ctx),
-      audio(ort.kurz, ctx, "Kurzfassung"),
+      audio(ort.kurz, ctx, "Kurzfassung", `ort-${ort.id}-kurz`),
       abschnitte(ort.kurz),
       mehr,
       chips.length ? h("div", { class: "chips" }, h("span", { class: "chips-titel" }, "Passende Themen"), chips) : null,
@@ -116,7 +117,7 @@ export function renderThema(thema, ctx) {
       h("h1", {}, thema.titel),
       h("p", { class: "untertitel" }, thema.untertitel),
       gesehenMarke(thema.id, ctx),
-      audio(thema.abschnitte, ctx, "Thema"),
+      audio(thema.abschnitte, ctx, "Thema", `thema-${thema.id}`),
       abschnitte(thema.abschnitte),
       quellen(thema.quellen)));
 }
@@ -165,6 +166,6 @@ export function renderEinfuehrung(site, ctx) {
     h("p", { class: "kicker" }, "Einführung"),
     h("h1", {}, site.titel),
     h("div", { class: "offline-box", id: "offline-box" }),
-    audio(site.einfuehrung, ctx, "Einführung"),
+    audio(site.einfuehrung, ctx, "Einführung", "einfuehrung"),
     abschnitte(site.einfuehrung));
 }

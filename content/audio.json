@@ -1,0 +1,318 @@
+{
+    "stimme":  "onyx",
+    "modell":  "gpt-4o-mini-tts",
+    "abschnitte":  {
+                       "einfuehrung-1":  {
+                                             "datei":  "audio/einfuehrung-1.mp3",
+                                             "hash":  "944dbb30a24da961"
+                                         },
+                       "einfuehrung-2":  {
+                                             "datei":  "audio/einfuehrung-2.mp3",
+                                             "hash":  "7da63fd1b48f57a3"
+                                         },
+                       "einfuehrung-3":  {
+                                             "datei":  "audio/einfuehrung-3.mp3",
+                                             "hash":  "cf59cc58b8ef8ba9"
+                                         },
+                       "einfuehrung-4":  {
+                                             "datei":  "audio/einfuehrung-4.mp3",
+                                             "hash":  "65ccc2fe70f19fd5"
+                                         },
+                       "einfuehrung-5":  {
+                                             "datei":  "audio/einfuehrung-5.mp3",
+                                             "hash":  "79033fd7428b6b98"
+                                         },
+                       "einfuehrung-6":  {
+                                             "datei":  "audio/einfuehrung-6.mp3",
+                                             "hash":  "58db63833588e09b"
+                                         },
+                       "ort-hain-kurz-1":  {
+                                               "datei":  "audio/ort-hain-kurz-1.mp3",
+                                               "hash":  "011028a70c3bf685"
+                                           },
+                       "ort-hain-mehr-1":  {
+                                               "datei":  "audio/ort-hain-mehr-1.mp3",
+                                               "hash":  "3e79f4c64a2e636b"
+                                           },
+                       "ort-hain-mehr-2":  {
+                                               "datei":  "audio/ort-hain-mehr-2.mp3",
+                                               "hash":  "c09585f85ede5ab5"
+                                           },
+                       "ort-propylon-kurz-1":  {
+                                                   "datei":  "audio/ort-propylon-kurz-1.mp3",
+                                                   "hash":  "a4358f813a7de6f7"
+                                               },
+                       "ort-propylon-mehr-1":  {
+                                                   "datei":  "audio/ort-propylon-mehr-1.mp3",
+                                                   "hash":  "c272a46ed12531a0"
+                                               },
+                       "ort-untere-terrasse-kurz-1":  {
+                                                          "datei":  "audio/ort-untere-terrasse-kurz-1.mp3",
+                                                          "hash":  "e4fd3ff802978d09"
+                                                      },
+                       "ort-untere-terrasse-mehr-1":  {
+                                                          "datei":  "audio/ort-untere-terrasse-mehr-1.mp3",
+                                                          "hash":  "46b8b053720a8a67"
+                                                      },
+                       "ort-untere-terrasse-mehr-2":  {
+                                                          "datei":  "audio/ort-untere-terrasse-mehr-2.mp3",
+                                                          "hash":  "e9b2ce71915454b3"
+                                                      },
+                       "ort-brunnenwand-kurz-1":  {
+                                                      "datei":  "audio/ort-brunnenwand-kurz-1.mp3",
+                                                      "hash":  "e4b79851c1edbd6a"
+                                                  },
+                       "ort-brunnenwand-mehr-1":  {
+                                                      "datei":  "audio/ort-brunnenwand-mehr-1.mp3",
+                                                      "hash":  "f738fbdfa19f31f1"
+                                                  },
+                       "ort-latrinen-kurz-1":  {
+                                                   "datei":  "audio/ort-latrinen-kurz-1.mp3",
+                                                   "hash":  "fa1ae4795ceddb85"
+                                               },
+                       "ort-latrinen-mehr-1":  {
+                                                   "datei":  "audio/ort-latrinen-mehr-1.mp3",
+                                                   "hash":  "2e1fcbaa64781e72"
+                                               },
+                       "ort-thermen-kurz-1":  {
+                                                  "datei":  "audio/ort-thermen-kurz-1.mp3",
+                                                  "hash":  "b1dd08cd5e586123"
+                                              },
+                       "ort-thermen-mehr-1":  {
+                                                  "datei":  "audio/ort-thermen-mehr-1.mp3",
+                                                  "hash":  "5e52c2502c9afdf5"
+                                              },
+                       "ort-altar-kurz-1":  {
+                                                "datei":  "audio/ort-altar-kurz-1.mp3",
+                                                "hash":  "cb590cbdd539cd6e"
+                                            },
+                       "ort-altar-mehr-1":  {
+                                                "datei":  "audio/ort-altar-mehr-1.mp3",
+                                                "hash":  "36b3c187d9dcb679"
+                                            },
+                       "ort-altar-mehr-2":  {
+                                                "datei":  "audio/ort-altar-mehr-2.mp3",
+                                                "hash":  "986d83d94b45c020"
+                                            },
+                       "ort-ionischer-tempel-kurz-1":  {
+                                                           "datei":  "audio/ort-ionischer-tempel-kurz-1.mp3",
+                                                           "hash":  "f528ba564c1c15c2"
+                                                       },
+                       "ort-ionischer-tempel-mehr-1":  {
+                                                           "datei":  "audio/ort-ionischer-tempel-mehr-1.mp3",
+                                                           "hash":  "4d6a5082db96064d"
+                                                       },
+                       "ort-abaton-kurz-1":  {
+                                                 "datei":  "audio/ort-abaton-kurz-1.mp3",
+                                                 "hash":  "c5ab3c235be811f0"
+                                             },
+                       "ort-abaton-mehr-1":  {
+                                                 "datei":  "audio/ort-abaton-mehr-1.mp3",
+                                                 "hash":  "06106a3e3000fe58"
+                                             },
+                       "ort-xenophon-tempel-kurz-1":  {
+                                                          "datei":  "audio/ort-xenophon-tempel-kurz-1.mp3",
+                                                          "hash":  "efe2ca5413ce41b3"
+                                                      },
+                       "ort-xenophon-tempel-mehr-1":  {
+                                                          "datei":  "audio/ort-xenophon-tempel-mehr-1.mp3",
+                                                          "hash":  "4b26f551e72b01db"
+                                                      },
+                       "ort-exedra-kurz-1":  {
+                                                 "datei":  "audio/ort-exedra-kurz-1.mp3",
+                                                 "hash":  "5f983885f598b6fd"
+                                             },
+                       "ort-exedra-mehr-1":  {
+                                                 "datei":  "audio/ort-exedra-mehr-1.mp3",
+                                                 "hash":  "caba4ae5153dde9d"
+                                             },
+                       "ort-apollon-tempel-kurz-1":  {
+                                                         "datei":  "audio/ort-apollon-tempel-kurz-1.mp3",
+                                                         "hash":  "9b4cabc89b227b96"
+                                                     },
+                       "ort-apollon-tempel-mehr-1":  {
+                                                         "datei":  "audio/ort-apollon-tempel-mehr-1.mp3",
+                                                         "hash":  "8886ca9f856ce0eb"
+                                                     },
+                       "ort-grosse-treppe-kurz-1":  {
+                                                        "datei":  "audio/ort-grosse-treppe-kurz-1.mp3",
+                                                        "hash":  "a330c9ce9a398407"
+                                                    },
+                       "ort-grosse-treppe-mehr-1":  {
+                                                        "datei":  "audio/ort-grosse-treppe-mehr-1.mp3",
+                                                        "hash":  "2d76f0204c72e248"
+                                                    },
+                       "ort-dorischer-tempel-kurz-1":  {
+                                                           "datei":  "audio/ort-dorischer-tempel-kurz-1.mp3",
+                                                           "hash":  "abead6970c42fb11"
+                                                       },
+                       "ort-dorischer-tempel-mehr-1":  {
+                                                           "datei":  "audio/ort-dorischer-tempel-mehr-1.mp3",
+                                                           "hash":  "ee5bf8a4501680a6"
+                                                       },
+                       "ort-dorischer-tempel-mehr-2":  {
+                                                           "datei":  "audio/ort-dorischer-tempel-mehr-2.mp3",
+                                                           "hash":  "6c60024edf2a8315"
+                                                       },
+                       "ort-obere-hallen-kurz-1":  {
+                                                       "datei":  "audio/ort-obere-hallen-kurz-1.mp3",
+                                                       "hash":  "8e6d870a8b1720a7"
+                                                   },
+                       "ort-obere-hallen-mehr-1":  {
+                                                       "datei":  "audio/ort-obere-hallen-mehr-1.mp3",
+                                                       "hash":  "5cb06cacb3d3ad95"
+                                                   },
+                       "thema-asklepios-1":  {
+                                                 "datei":  "audio/thema-asklepios-1.mp3",
+                                                 "hash":  "fbeff868f1efce88"
+                                             },
+                       "thema-asklepios-2":  {
+                                                 "datei":  "audio/thema-asklepios-2.mp3",
+                                                 "hash":  "2c0a7075d03f01fb"
+                                             },
+                       "thema-asklepios-3":  {
+                                                 "datei":  "audio/thema-asklepios-3.mp3",
+                                                 "hash":  "148de7cd91804a53"
+                                             },
+                       "thema-asklepios-4":  {
+                                                 "datei":  "audio/thema-asklepios-4.mp3",
+                                                 "hash":  "202296feb33e6f66"
+                                             },
+                       "thema-hippokrates-1":  {
+                                                   "datei":  "audio/thema-hippokrates-1.mp3",
+                                                   "hash":  "249d4be2ff2b1535"
+                                               },
+                       "thema-hippokrates-2":  {
+                                                   "datei":  "audio/thema-hippokrates-2.mp3",
+                                                   "hash":  "69a2c7e3446a7265"
+                                               },
+                       "thema-hippokrates-3":  {
+                                                   "datei":  "audio/thema-hippokrates-3.mp3",
+                                                   "hash":  "ce0f12954e6d8f7f"
+                                               },
+                       "thema-hippokrates-4":  {
+                                                   "datei":  "audio/thema-hippokrates-4.mp3",
+                                                   "hash":  "8a13df9f612ced37"
+                                               },
+                       "thema-kos-geschichte-1":  {
+                                                      "datei":  "audio/thema-kos-geschichte-1.mp3",
+                                                      "hash":  "b77b94ad1c8be9d2"
+                                                  },
+                       "thema-kos-geschichte-2":  {
+                                                      "datei":  "audio/thema-kos-geschichte-2.mp3",
+                                                      "hash":  "841617da30f4f2f4"
+                                                  },
+                       "thema-kos-geschichte-3":  {
+                                                      "datei":  "audio/thema-kos-geschichte-3.mp3",
+                                                      "hash":  "d3c9e1f4bea41329"
+                                                  },
+                       "thema-kos-geschichte-4":  {
+                                                      "datei":  "audio/thema-kos-geschichte-4.mp3",
+                                                      "hash":  "ddbca4c246744625"
+                                                  },
+                       "thema-kos-geschichte-5":  {
+                                                      "datei":  "audio/thema-kos-geschichte-5.mp3",
+                                                      "hash":  "943dcbbe4359207d"
+                                                  },
+                       "thema-heilsuchende-1":  {
+                                                    "datei":  "audio/thema-heilsuchende-1.mp3",
+                                                    "hash":  "f68bc61fd2e60f79"
+                                                },
+                       "thema-heilsuchende-2":  {
+                                                    "datei":  "audio/thema-heilsuchende-2.mp3",
+                                                    "hash":  "3597cfd819b0f7e8"
+                                                },
+                       "thema-heilsuchende-3":  {
+                                                    "datei":  "audio/thema-heilsuchende-3.mp3",
+                                                    "hash":  "36bf94ddcf101d11"
+                                                },
+                       "thema-heilsuchende-4":  {
+                                                    "datei":  "audio/thema-heilsuchende-4.mp3",
+                                                    "hash":  "c479850fc9be30f4"
+                                                },
+                       "thema-heilschlaf-1":  {
+                                                  "datei":  "audio/thema-heilschlaf-1.mp3",
+                                                  "hash":  "21a22b441f2587c3"
+                                              },
+                       "thema-heilschlaf-2":  {
+                                                  "datei":  "audio/thema-heilschlaf-2.mp3",
+                                                  "hash":  "3e99b39a2879d4ee"
+                                              },
+                       "thema-heilschlaf-3":  {
+                                                  "datei":  "audio/thema-heilschlaf-3.mp3",
+                                                  "hash":  "09c4a0792cb094cf"
+                                              },
+                       "thema-heilschlaf-4":  {
+                                                  "datei":  "audio/thema-heilschlaf-4.mp3",
+                                                  "hash":  "54874a3d688a02d4"
+                                              },
+                       "thema-heilschlaf-5":  {
+                                                  "datei":  "audio/thema-heilschlaf-5.mp3",
+                                                  "hash":  "3c644f973e1e48b1"
+                                              },
+                       "thema-saeftelehre-1":  {
+                                                   "datei":  "audio/thema-saeftelehre-1.mp3",
+                                                   "hash":  "323e49c5f586539d"
+                                               },
+                       "thema-saeftelehre-2":  {
+                                                   "datei":  "audio/thema-saeftelehre-2.mp3",
+                                                   "hash":  "afeeae48435fb07a"
+                                               },
+                       "thema-saeftelehre-3":  {
+                                                   "datei":  "audio/thema-saeftelehre-3.mp3",
+                                                   "hash":  "e8e4c5354cb2a929"
+                                               },
+                       "thema-saeftelehre-4":  {
+                                                   "datei":  "audio/thema-saeftelehre-4.mp3",
+                                                   "hash":  "872d87e800030ac5"
+                                               },
+                       "thema-alltag-1":  {
+                                              "datei":  "audio/thema-alltag-1.mp3",
+                                              "hash":  "62a4583808f8d809"
+                                          },
+                       "thema-alltag-2":  {
+                                              "datei":  "audio/thema-alltag-2.mp3",
+                                              "hash":  "b2d599819c52a5a5"
+                                          },
+                       "thema-alltag-3":  {
+                                              "datei":  "audio/thema-alltag-3.mp3",
+                                              "hash":  "3e586fc389f9dd96"
+                                          },
+                       "thema-alltag-4":  {
+                                              "datei":  "audio/thema-alltag-4.mp3",
+                                              "hash":  "7b82740f92a970ca"
+                                          },
+                       "thema-glaube-erfahrung-1":  {
+                                                        "datei":  "audio/thema-glaube-erfahrung-1.mp3",
+                                                        "hash":  "8d49fafb42b761be"
+                                                    },
+                       "thema-glaube-erfahrung-2":  {
+                                                        "datei":  "audio/thema-glaube-erfahrung-2.mp3",
+                                                        "hash":  "6399dc21ffae8980"
+                                                    },
+                       "thema-glaube-erfahrung-3":  {
+                                                        "datei":  "audio/thema-glaube-erfahrung-3.mp3",
+                                                        "hash":  "85c7bf856fd8ed9f"
+                                                    },
+                       "thema-glaube-erfahrung-4":  {
+                                                        "datei":  "audio/thema-glaube-erfahrung-4.mp3",
+                                                        "hash":  "bcc1d1487fa313fd"
+                                                    },
+                       "thema-krankenhaus-1":  {
+                                                   "datei":  "audio/thema-krankenhaus-1.mp3",
+                                                   "hash":  "fa240934d4ca0374"
+                                               },
+                       "thema-krankenhaus-2":  {
+                                                   "datei":  "audio/thema-krankenhaus-2.mp3",
+                                                   "hash":  "9b377e80abadfe54"
+                                               },
+                       "thema-krankenhaus-3":  {
+                                                   "datei":  "audio/thema-krankenhaus-3.mp3",
+                                                   "hash":  "ceb06e8ffb026d50"
+                                               },
+                       "thema-krankenhaus-4":  {
+                                                   "datei":  "audio/thema-krankenhaus-4.mp3",
+                                                   "hash":  "d431644b4c42fb39"
+                                               }
+                   }
+}

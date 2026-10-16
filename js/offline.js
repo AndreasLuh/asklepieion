@@ -25,6 +25,7 @@ export function fehlendeImPrecache(inhalt, liste) {
     for (const b of [o.bilder?.heute, o.bilder?.rekonstruktion]) if (b?.src) noetig.add(b.src);
   }
   for (const t of inhalt.themen || []) if (t.bild?.src) noetig.add(t.bild.src);
+  for (const a of Object.values(inhalt.audio || {})) noetig.add(a.datei);
   const vorhanden = new Set(liste);
   return [...noetig].filter(d => !vorhanden.has(d));
 }

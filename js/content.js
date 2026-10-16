@@ -9,9 +9,30 @@ export async function loadContent(base = "content/") {
   };
   // Eine einzelne .json-Datei enthält alles (für Tests und Vorschau)
   if (base.endsWith(".json")) return hole("");
-  const [site, orte, themen, lexikon] = await Promise.all(
-    ["site.json", "orte.json", "themen.json", "lexikon.json"].map(hole));
-  return { site, orte: orte.orte, themen: themen.themen, lexikon };
+  const [site, orte, themen, lexikon, audio] = await Promise.all([
+    ...["site.json", "orte.json", "themen.json", "lexikon.json"].map(hole),
+    hole("audio.json").catch(() => ({ abschnitte: {} })),  // Aufnahmen sind freiwillig
+  ]);
+  return { site, orte: orte.orte, themen: themen.themen, lexikon, audio: audio.abschnitte || {} };
+}
+
+// Alle vorlesbaren Abschnitte mit ihrem Schlüssel für die Aufnahmen.
+// Gleiche Aufzählung wie in tools/vertonen.ps1.
+export function audioAbschnitte(inhalt) {
+  const liste = [];
+  const hinzu = (schluessel, abschnitte, titel = "") =>
+    (abschnitte || []).forEach((a, i) => liste.push({ schluessel: `${schluessel}-${i + 1}`, titel: i === 0 ? titel : "", abschnitt: a }));
+  hinzu("einfuehrung", inhalt.site?.einfuehrung);
+  for (const o of inhalt.orte || []) { hinzu(`ort-${o.id}-kurz`, o.kurz, o.titel); hinzu(`ort-${o.id}-mehr`, o.mehr); }
+  for (const t of inhalt.themen || []) hinzu(`thema-${t.id}`, t.abschnitte, t.titel);
+  return liste;
+}
+
+// Kennung des Textes einer Aufnahme: ändert sich der Text, passt die Aufnahme nicht mehr.
+export async function audioHash({ titel, abschnitt }) {
+  const roh = [titel || "", abschnitt.ueberschrift || "", ...abschnitt.absaetze].join("\n");
+  const bytes = new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(roh)));
+  return [...bytes].map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 16);
 }
 
 function pruefeAbschnitte(liste, wo, m) {
