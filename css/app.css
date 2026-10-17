@@ -79,6 +79,9 @@ h1 { font-size: 26px; line-height: 1.15; margin: 0 0 6px; font-weight: 600; }
 }
 .umschalter button { border: 0; background: transparent; font: 600 13px var(--sans); padding: 8px 14px; color: var(--text); }
 .umschalter button.an { background: var(--blau); color: #fff; }
+.umschalter.viele { position: static; width: fit-content; max-width: calc(100% - 24px); margin: 8px auto 0; }
+.umschalter.viele button { padding: 8px 11px; }
+.bildflaeche figure.vergleich img { object-fit: contain; background: #f4efe4; }
 
 /* Audio */
 .audio { display: flex; align-items: center; gap: 10px; background: var(--blau-hell); border-radius: 12px; padding: 10px 12px; margin: 12px 0; }

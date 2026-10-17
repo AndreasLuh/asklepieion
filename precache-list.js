@@ -183,11 +183,16 @@ self.PRECACHE = [
   "img/fotos/obere-hallen.jpg",
   "img/fotos/rekonstruktion-devedjian.jpg",
   "img/fotos/untere-terrasse.jpg",
+  "img/fotos/vergleich-aegina.jpg",
   "img/plan.svg",
   "img/rekonstruktionen/gesamtansicht.svg",
+  "img/rekonstruktionen/gesamtansicht-farbig.svg",
   "img/rekonstruktionen/mittlere-terrasse.svg",
+  "img/rekonstruktionen/mittlere-terrasse-farbig.svg",
   "img/rekonstruktionen/obere-terrasse.svg",
+  "img/rekonstruktionen/obere-terrasse-farbig.svg",
   "img/rekonstruktionen/untere-terrasse.svg",
+  "img/rekonstruktionen/untere-terrasse-farbig.svg",
   "index.html",
   "js/app.js",
   "js/content.js",
@@ -201,4 +206,4 @@ self.PRECACHE = [
   "js/speech.js",
   "manifest.webmanifest"
 ];
-self.CACHE_VERSION = "ea8c995197f0";
+self.CACHE_VERSION = "bc82c0643f7b";
